@@ -1,0 +1,5 @@
+Sarah Johnson joined Orion Technologies in 2021 as a senior software engineer. In 2023, she was promoted to Director of Engineering, where she began leading the company's cloud infrastructure team. Orion Technologies is headquartered in Austin, Texas, and operates additional engineering offices in Seattle and Boston.
+
+Orion Technologies acquired DataSphere Analytics in 2022 to expand its data analytics capabilities. DataSphere was founded by Michael Chen, who remained with the company after the acquisition and became its Chief Data Officer. The company develops analytics software for financial services organizations and has major customers in the United States and Canada.
+
+In 2024, Orion Technologies launched Orion Cloud, a platform designed to help enterprises manage distributed applications and data pipelines. Sarah Johnson oversees the engineering organization responsible for Orion Cloud, while Michael Chen leads the platform's data analytics division. Orion Cloud is primarily developed by teams in Austin and Seattle.
