@@ -1,0 +1,48 @@
+[input1_0]
+PER	Sarah Johnson	0.9997	3
+ORG	Orion Technologies	0.9995	3
+ORG	Engineering	0.6036	1
+LOC	Austin	0.9983	1
+LOC	Texas	0.9993	1
+LOC	Seattle	0.9979	1
+LOC	Boston	0.9952	1
+
+[input1_1]
+ORG	Orion Technologies	0.9995	4
+ORG	DataSphere Analytics	0.9993	3
+PER	Michael Chen	0.9997	1
+LOC	United States	0.9995	1
+LOC	Canada	0.9995	1
+
+[input1_2]
+ORG	Orion Technologies	0.9993	1
+ORG	Orion Cloud	0.9984	4
+PER	Sarah Johnson	0.9997	1
+PER	Michael Chen	0.9998	1
+LOC	Austin	0.9959	1
+LOC	Seattle	0.9949	1
+
+[input2_acc_0]
+ORG	Accounting team	0.9061	4
+ORG	Orion Technologies	0.9994	3
+PER	Laura Martinez	0.9997	1
+ORG	Finance	0.7547	1
+LOC	Austin	0.9971	1
+LOC	Seattle	0.9982	1
+
+[input2_acc_1]
+ORG	Orion Technologies	0.9994	3
+PER	David Wilson	0.9996	2
+ORG	Accounting	0.5389	1
+PER	Laura Martinez	0.9996	1
+ORG	Legal and Finance	0.9919	1
+ORG	Accounting team	0.8700	2
+ORG	Orion Cloud	0.9991	3
+
+[input2_acc_2]
+ORG	Accounting team	0.9061	2
+PER	Laura Martinez	0.9988	1
+PER	David Wilson	0.9994	1
+ORG	Orion Technologies	0.9991	2
+ORG	Enterprise Systems	0.9974	1
+LOC	Seattle	0.9991	1

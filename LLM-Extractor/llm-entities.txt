@@ -1,0 +1,41 @@
+[input1_0]
+PER	Sarah Johnson
+ORG	Orion Technologies
+LOC	Austin, Texas
+LOC	Seattle
+LOC	Boston
+
+[input1_1]
+ORG	Orion Technologies
+ORG	DataSphere Analytics
+PER	Michael Chen
+LOC	United States
+LOC	Canada
+
+[input1_2]
+ORG	Orion Technologies
+ORG	Orion Cloud
+PER	Sarah Johnson
+PER	Michael Chen
+LOC	Austin
+LOC	Seattle
+
+[input2_acc_0]
+ORG	Orion Technologies
+PER	Laura Martinez
+LOC	Austin
+LOC	Seattle
+
+[input2_acc_1]
+ORG	Orion Technologies
+PER	David Wilson
+PER	Laura Martinez
+ORG	Orion Cloud
+
+[input2_acc_2]
+ORG	Accounting team
+PER	Laura Martinez
+PER	David Wilson
+ORG	Orion Technologies
+ORG	Enterprise Systems team
+LOC	Seattle
