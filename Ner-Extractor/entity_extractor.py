@@ -132,21 +132,26 @@ def extract_entities(chunks: list[Chunk], ner_model: GLiNER, coref_model) -> dic
     return {chunk.id: entities[chunk.id] for chunk in chunks}
 
 
-def write_entities(entities: dict[str, list[dict]], path: str | Path) -> None:
+def merge_entities(entities: dict[str, list[dict]]) -> list[dict]:
+    """One row per (type, name) across chunks, in order of first appearance: max score, summed mentions."""
+    merged: dict[tuple[str, str], dict] = {}
+    for chunk_id, results in entities.items():
+        for ent in results:
+            key = (ent["entity_group"], ent["word"])
+            if key not in merged:
+                merged[key] = {"type": key[0], "name": key[1], "score": ent["score"], "mentions": 0, "chunks": []}
+            row = merged[key]
+            row["score"] = max(row["score"], ent["score"])
+            row["mentions"] += ent["count"]
+            if chunk_id not in row["chunks"]:
+                row["chunks"].append(chunk_id)
+    return [{**row, "score": round(row["score"], 4)} for row in merged.values()]
+
+
+def write_entities(entities: list[dict], path: str | Path) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-
-    data = [
-        {
-            "id": chunk_id,
-            "entities": [
-                {"type": ent["entity_group"], "name": ent["word"], "score": round(ent["score"], 4), "mentions": ent["count"]}
-                for ent in results
-            ],
-        }
-        for chunk_id, results in entities.items()
-    ]
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+    path.write_text(json.dumps(entities, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 if __name__ == "__main__":
@@ -155,6 +160,6 @@ if __name__ == "__main__":
 
     chunks = load_chunks(input_path)
     entities = extract_entities(chunks, build_ner_model(), build_coref_model())
-    write_entities(entities, output_path)
-    total = sum(len(v) for v in entities.values())
-    print(f"Wrote {total} entities from {len(chunks)} chunks to {output_path}")
+    merged = merge_entities(entities)
+    write_entities(merged, output_path)
+    print(f"Wrote {len(merged)} unique entities from {len(chunks)} chunks to {output_path}")

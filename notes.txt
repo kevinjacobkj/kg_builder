@@ -7,7 +7,9 @@ py text_files/text_parser.py
 LLM (needs OPENAI_API_KEY in .env, optional OPENAI_MODEL):
 py LLM-Extractor/entity_extractor.py
 
+py load_neo4j.py
 
+py run_ner_pipeline.py
 
 
 

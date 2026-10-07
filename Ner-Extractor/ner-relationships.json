@@ -363,7 +363,7 @@
     ]
   },
   {
-    "id": "input2_acc_0",
+    "id": "input2_0",
     "relationships": [
       {
         "head": {
@@ -524,7 +524,7 @@
     ]
   },
   {
-    "id": "input2_acc_1",
+    "id": "input2_1",
     "relationships": [
       {
         "head": {
@@ -649,7 +649,7 @@
     ]
   },
   {
-    "id": "input2_acc_2",
+    "id": "input2_2",
     "relationships": [
       {
         "head": {
@@ -746,6 +746,107 @@
           "type": "TEAM"
         },
         "score": 0.6173
+      }
+    ]
+  },
+  {
+    "id": "input3_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Orion Cloud",
+          "type": "PLAT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.9744
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "has customers in",
+        "tail": {
+          "name": "United States",
+          "type": "COUNTRY"
+        },
+        "score": 0.9597
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "has customers in",
+        "tail": {
+          "name": "Canada",
+          "type": "COUNTRY"
+        },
+        "score": 0.9368
+      },
+      {
+        "head": {
+          "name": "cloud infrastructure",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.9208
+      },
+      {
+        "head": {
+          "name": "enterprise systems",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.9002
+      },
+      {
+        "head": {
+          "name": "Jennifer Adams",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.811
+      },
+      {
+        "head": {
+          "name": "client success team",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "ongoing technical support",
+          "type": "SERV"
+        },
+        "score": 0.6492
+      },
+      {
+        "head": {
+          "name": "Jennifer Adams",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "client success team",
+          "type": "TEAM"
+        },
+        "score": 0.6257
       }
     ]
   }

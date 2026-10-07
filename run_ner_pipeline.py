@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parent
 STEPS = [
     ROOT / "Ner-Extractor" / "entity_extractor.py",
     ROOT / "Ner-Extractor" / "relation_extractor.py",
+    ROOT / "Ner-Extractor" / "graph_builder.py",
 ]
 
 

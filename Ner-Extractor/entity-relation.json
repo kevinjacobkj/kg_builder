@@ -1,0 +1,1189 @@
+{
+  "nodes": [
+    {
+      "id": "PER:Sarah Johnson",
+      "type": "PER",
+      "name": "Sarah Johnson",
+      "score": 0.9769,
+      "mentions": 4,
+      "chunks": [
+        "input1_0",
+        "input1_2"
+      ]
+    },
+    {
+      "id": "COMP:Orion Technologies",
+      "type": "COMP",
+      "name": "Orion Technologies",
+      "score": 0.9909,
+      "mentions": 20,
+      "chunks": [
+        "input1_0",
+        "input1_1",
+        "input1_2",
+        "input2_0",
+        "input2_1",
+        "input2_2",
+        "input3_0"
+      ]
+    },
+    {
+      "id": "DATE:2021",
+      "type": "DATE",
+      "name": "2021",
+      "score": 0.984,
+      "mentions": 1,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "id": "TITLE:senior software engineer",
+      "type": "TITLE",
+      "name": "senior software engineer",
+      "score": 0.9639,
+      "mentions": 1,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "id": "DATE:2023",
+      "type": "DATE",
+      "name": "2023",
+      "score": 0.9872,
+      "mentions": 2,
+      "chunks": [
+        "input1_0",
+        "input2_1"
+      ]
+    },
+    {
+      "id": "TITLE:Director of Engineering",
+      "type": "TITLE",
+      "name": "Director of Engineering",
+      "score": 0.9928,
+      "mentions": 1,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "id": "DEPT:cloud infrastructure team",
+      "type": "DEPT",
+      "name": "cloud infrastructure team",
+      "score": 0.7625,
+      "mentions": 1,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "id": "CITY:Austin",
+      "type": "CITY",
+      "name": "Austin",
+      "score": 0.9933,
+      "mentions": 3,
+      "chunks": [
+        "input1_0",
+        "input1_2",
+        "input2_0"
+      ]
+    },
+    {
+      "id": "STATE:Texas",
+      "type": "STATE",
+      "name": "Texas",
+      "score": 0.9032,
+      "mentions": 1,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "id": "CITY:Seattle",
+      "type": "CITY",
+      "name": "Seattle",
+      "score": 0.9956,
+      "mentions": 4,
+      "chunks": [
+        "input1_0",
+        "input1_2",
+        "input2_0",
+        "input2_2"
+      ]
+    },
+    {
+      "id": "CITY:Boston",
+      "type": "CITY",
+      "name": "Boston",
+      "score": 0.9956,
+      "mentions": 1,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "id": "COMP:DataSphere Analytics",
+      "type": "COMP",
+      "name": "DataSphere Analytics",
+      "score": 0.9786,
+      "mentions": 4,
+      "chunks": [
+        "input1_1",
+        "input3_0"
+      ]
+    },
+    {
+      "id": "DATE:2022",
+      "type": "DATE",
+      "name": "2022",
+      "score": 0.9811,
+      "mentions": 1,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "id": "PER:Michael Chen",
+      "type": "PER",
+      "name": "Michael Chen",
+      "score": 0.9883,
+      "mentions": 2,
+      "chunks": [
+        "input1_1",
+        "input1_2"
+      ]
+    },
+    {
+      "id": "TITLE:Chief Data Officer",
+      "type": "TITLE",
+      "name": "Chief Data Officer",
+      "score": 0.9922,
+      "mentions": 1,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "id": "ORG:financial services organizations",
+      "type": "ORG",
+      "name": "financial services organizations",
+      "score": 0.9117,
+      "mentions": 1,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "id": "COUNTRY:United States",
+      "type": "COUNTRY",
+      "name": "United States",
+      "score": 0.9978,
+      "mentions": 2,
+      "chunks": [
+        "input1_1",
+        "input3_0"
+      ]
+    },
+    {
+      "id": "COUNTRY:Canada",
+      "type": "COUNTRY",
+      "name": "Canada",
+      "score": 0.9994,
+      "mentions": 2,
+      "chunks": [
+        "input1_1",
+        "input3_0"
+      ]
+    },
+    {
+      "id": "DATE:2024",
+      "type": "DATE",
+      "name": "2024",
+      "score": 0.99,
+      "mentions": 2,
+      "chunks": [
+        "input1_2",
+        "input2_2"
+      ]
+    },
+    {
+      "id": "PLAT:Orion Cloud",
+      "type": "PLAT",
+      "name": "Orion Cloud",
+      "score": 0.9495,
+      "mentions": 7,
+      "chunks": [
+        "input1_2",
+        "input2_1",
+        "input3_0"
+      ]
+    },
+    {
+      "id": "DEPT:engineering organization",
+      "type": "DEPT",
+      "name": "engineering organization",
+      "score": 0.7366,
+      "mentions": 1,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "id": "TEAM:Accounting team",
+      "type": "TEAM",
+      "name": "Accounting team",
+      "score": 0.9524,
+      "mentions": 8,
+      "chunks": [
+        "input2_0",
+        "input2_1",
+        "input2_2"
+      ]
+    },
+    {
+      "id": "PROCESS:financial reporting",
+      "type": "PROCESS",
+      "name": "financial reporting",
+      "score": 0.8393,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "FUNCTION:budgeting",
+      "type": "FUNCTION",
+      "name": "budgeting",
+      "score": 0.7707,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "FUNCTION:forecasting",
+      "type": "FUNCTION",
+      "name": "forecasting",
+      "score": 0.736,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "PER:Laura Martinez",
+      "type": "PER",
+      "name": "Laura Martinez",
+      "score": 0.9692,
+      "mentions": 3,
+      "chunks": [
+        "input2_0",
+        "input2_1",
+        "input2_2"
+      ]
+    },
+    {
+      "id": "TITLE:Vice President of Finance",
+      "type": "TITLE",
+      "name": "Vice President of Finance",
+      "score": 0.9573,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "TEAM:accountants",
+      "type": "TEAM",
+      "name": "accountants",
+      "score": 0.7558,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "TEAM:financial analysts",
+      "type": "TEAM",
+      "name": "financial analysts",
+      "score": 0.8173,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "TEAM:accounting managers",
+      "type": "TEAM",
+      "name": "accounting managers",
+      "score": 0.8466,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "DEPT:Accounts Payable",
+      "type": "DEPT",
+      "name": "Accounts Payable",
+      "score": 0.9118,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "DEPT:Accounts Receivable",
+      "type": "DEPT",
+      "name": "Accounts Receivable",
+      "score": 0.9011,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "FUNCTION:financial records",
+      "type": "FUNCTION",
+      "name": "financial records",
+      "score": 0.7259,
+      "mentions": 1,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "PER:David Wilson",
+      "type": "PER",
+      "name": "David Wilson",
+      "score": 0.97,
+      "mentions": 3,
+      "chunks": [
+        "input2_1",
+        "input2_2"
+      ]
+    },
+    {
+      "id": "TITLE:Director of Accounting",
+      "type": "TITLE",
+      "name": "Director of Accounting",
+      "score": 0.9715,
+      "mentions": 1,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "id": "PROCESS:financial reporting operations",
+      "type": "PROCESS",
+      "name": "financial reporting operations",
+      "score": 0.7216,
+      "mentions": 1,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "id": "DEPT:Legal",
+      "type": "DEPT",
+      "name": "Legal",
+      "score": 0.8096,
+      "mentions": 1,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "id": "DEPT:Finance",
+      "type": "DEPT",
+      "name": "Finance",
+      "score": 0.7399,
+      "mentions": 1,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "id": "MONEY:revenue",
+      "type": "MONEY",
+      "name": "revenue",
+      "score": 0.8367,
+      "mentions": 1,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "id": "PLAT:platform",
+      "type": "PLAT",
+      "name": "platform",
+      "score": 0.8856,
+      "mentions": 1,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "id": "TECH:cloud-related",
+      "type": "TECH",
+      "name": "cloud-related",
+      "score": 0.7539,
+      "mentions": 1,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "id": "TEAM:Enterprise Systems team",
+      "type": "TEAM",
+      "name": "Enterprise Systems team",
+      "score": 0.9101,
+      "mentions": 1,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "id": "BU:enterprise clients",
+      "type": "BU",
+      "name": "enterprise clients",
+      "score": 0.7234,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "COMP:Northstar Financial Group",
+      "type": "COMP",
+      "name": "Northstar Financial Group",
+      "score": 0.9607,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "CITY:Chicago",
+      "type": "CITY",
+      "name": "Chicago",
+      "score": 0.9952,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "COMP:Acme Retail Corporation",
+      "type": "COMP",
+      "name": "Acme Retail Corporation",
+      "score": 0.9381,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "TECH:cloud infrastructure",
+      "type": "TECH",
+      "name": "cloud infrastructure",
+      "score": 0.7233,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "TECH:enterprise systems",
+      "type": "TECH",
+      "name": "enterprise systems",
+      "score": 0.7169,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "TEAM:client success team",
+      "type": "TEAM",
+      "name": "client success team",
+      "score": 0.906,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "PER:Jennifer Adams",
+      "type": "PER",
+      "name": "Jennifer Adams",
+      "score": 0.9589,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "TEAM:engineering and accounting teams",
+      "type": "TEAM",
+      "name": "engineering and accounting teams",
+      "score": 0.7419,
+      "mentions": 1,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "id": "TEAM:teams",
+      "type": "TEAM",
+      "name": "teams",
+      "score": null,
+      "mentions": 0,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "id": "PROCESS:vendor payments",
+      "type": "PROCESS",
+      "name": "vendor payments",
+      "score": null,
+      "mentions": 0,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "PROCESS:customer invoices",
+      "type": "PROCESS",
+      "name": "customer invoices",
+      "score": null,
+      "mentions": 0,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "id": "SOFT:financial management system",
+      "type": "SOFT",
+      "name": "financial management system",
+      "score": null,
+      "mentions": 0,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "id": "PROJECT:project",
+      "type": "PROJECT",
+      "name": "project",
+      "score": null,
+      "mentions": 0,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "id": "SERV:ongoing technical support",
+      "type": "SERV",
+      "name": "ongoing technical support",
+      "score": null,
+      "mentions": 0,
+      "chunks": [
+        "input3_0"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "CITY:Seattle",
+      "relation": "has office in",
+      "score": 0.9663,
+      "chunks": [
+        "input1_0",
+        "input2_0",
+        "input2_2"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "DATE:2021",
+      "relation": "joined in",
+      "score": 0.9536,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "CITY:Boston",
+      "relation": "has office in",
+      "score": 0.9476,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "COMP:Orion Technologies",
+      "relation": "joined",
+      "score": 0.9409,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "CITY:Austin",
+      "relation": "headquartered in",
+      "score": 0.8835,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "TITLE:Director of Engineering",
+      "relation": "promoted to",
+      "score": 0.87,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "COMP:Orion Technologies",
+      "relation": "works at",
+      "score": 0.8525,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "DATE:2023",
+      "relation": "promoted in",
+      "score": 0.8365,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "DEPT:cloud infrastructure team",
+      "relation": "leads",
+      "score": 0.8103,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "TITLE:senior software engineer",
+      "relation": "has job title",
+      "score": 0.7611,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "DATE:2021",
+      "relation": "appointed in",
+      "score": 0.7116,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "DATE:2023",
+      "relation": "appointed in",
+      "score": 0.683,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "DEPT:cloud infrastructure team",
+      "target": "COMP:Orion Technologies",
+      "relation": "part of",
+      "score": 0.6355,
+      "chunks": [
+        "input1_0"
+      ]
+    },
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "COMP:DataSphere Analytics",
+      "relation": "acquired",
+      "score": 0.9511,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "COMP:DataSphere Analytics",
+      "target": "COUNTRY:United States",
+      "relation": "has customers in",
+      "score": 0.8928,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "COMP:DataSphere Analytics",
+      "target": "COUNTRY:Canada",
+      "relation": "has customers in",
+      "score": 0.8916,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "PER:Michael Chen",
+      "target": "COMP:DataSphere Analytics",
+      "relation": "founded",
+      "score": 0.8612,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "COMP:DataSphere Analytics",
+      "target": "DATE:2022",
+      "relation": "was acquired in",
+      "score": 0.8582,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "PER:Michael Chen",
+      "target": "COMP:DataSphere Analytics",
+      "relation": "joined",
+      "score": 0.6687,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "PER:Michael Chen",
+      "target": "TITLE:Chief Data Officer",
+      "relation": "promoted to",
+      "score": 0.6618,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "PER:Michael Chen",
+      "target": "COMP:Orion Technologies",
+      "relation": "joined",
+      "score": 0.6387,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "PER:Michael Chen",
+      "target": "COMP:DataSphere Analytics",
+      "relation": "works at",
+      "score": 0.6206,
+      "chunks": [
+        "input1_1"
+      ]
+    },
+    {
+      "source": "PLAT:Orion Cloud",
+      "target": "DATE:2024",
+      "relation": "launched in",
+      "score": 0.9875,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "PLAT:Orion Cloud",
+      "relation": "launched",
+      "score": 0.9754,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "source": "PLAT:Orion Cloud",
+      "target": "TEAM:teams",
+      "relation": "developed by",
+      "score": 0.8892,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "source": "TEAM:teams",
+      "target": "CITY:Austin",
+      "relation": "based in",
+      "score": 0.802,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "source": "TEAM:teams",
+      "target": "CITY:Seattle",
+      "relation": "based in",
+      "score": 0.7983,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "source": "PLAT:Orion Cloud",
+      "target": "COMP:Orion Technologies",
+      "relation": "developed by",
+      "score": 0.9744,
+      "chunks": [
+        "input1_2",
+        "input3_0"
+      ]
+    },
+    {
+      "source": "PER:Sarah Johnson",
+      "target": "DEPT:engineering organization",
+      "relation": "oversees",
+      "score": 0.6872,
+      "chunks": [
+        "input1_2"
+      ]
+    },
+    {
+      "source": "PER:Laura Martinez",
+      "target": "TITLE:Vice President of Finance",
+      "relation": "has job title",
+      "score": 0.9791,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "DEPT:Accounts Payable",
+      "relation": "works with",
+      "score": 0.9362,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "PROCESS:financial reporting",
+      "relation": "manages",
+      "score": 0.9309,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "PER:Laura Martinez",
+      "target": "TEAM:Accounting team",
+      "relation": "leads",
+      "score": 0.9091,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "DEPT:Accounts Receivable",
+      "relation": "works with",
+      "score": 0.9051,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "FUNCTION:budgeting",
+      "relation": "manages",
+      "score": 0.886,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "FUNCTION:forecasting",
+      "relation": "manages",
+      "score": 0.8731,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "PROCESS:vendor payments",
+      "relation": "supports",
+      "score": 0.8604,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "FUNCTION:financial records",
+      "relation": "supports",
+      "score": 0.8518,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "PROCESS:customer invoices",
+      "relation": "supports",
+      "score": 0.8406,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "PER:Laura Martinez",
+      "target": "COMP:Orion Technologies",
+      "relation": "works at",
+      "score": 0.8131,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "CITY:Austin",
+      "relation": "based in",
+      "score": 0.6532,
+      "chunks": [
+        "input2_0"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "TITLE:Director of Accounting",
+      "relation": "has job title",
+      "score": 0.9656,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "DATE:2023",
+      "relation": "appointed in",
+      "score": 0.963,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "PER:David Wilson",
+      "relation": "appointed",
+      "score": 0.946,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "PER:Laura Martinez",
+      "relation": "works with",
+      "score": 0.9434,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "TITLE:Director of Accounting",
+      "relation": "promoted to",
+      "score": 0.7872,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "COMP:Orion Technologies",
+      "relation": "joined",
+      "score": 0.7631,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "COMP:Orion Technologies",
+      "relation": "works at",
+      "score": 0.6877,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "TEAM:Accounting team",
+      "target": "PLAT:Orion Cloud",
+      "relation": "supports",
+      "score": 0.6714,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "DATE:2023",
+      "relation": "joined in",
+      "score": 0.6208,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "PROCESS:financial reporting operations",
+      "relation": "leads",
+      "score": 0.6149,
+      "chunks": [
+        "input2_1"
+      ]
+    },
+    {
+      "source": "SOFT:financial management system",
+      "target": "COMP:Orion Technologies",
+      "relation": "developed by",
+      "score": 0.9624,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "source": "SOFT:financial management system",
+      "target": "DATE:2024",
+      "relation": "launched in",
+      "score": 0.8912,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "source": "PER:Laura Martinez",
+      "target": "PROJECT:project",
+      "relation": "sponsored",
+      "score": 0.8762,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "source": "PER:Laura Martinez",
+      "target": "SOFT:financial management system",
+      "relation": "sponsored",
+      "score": 0.7882,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "source": "SOFT:financial management system",
+      "target": "DATE:2024",
+      "relation": "implemented in",
+      "score": 0.7367,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "TEAM:Accounting team",
+      "relation": "manages",
+      "score": 0.691,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "source": "PER:David Wilson",
+      "target": "TEAM:Accounting team",
+      "relation": "leads",
+      "score": 0.6173,
+      "chunks": [
+        "input2_2"
+      ]
+    },
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "COUNTRY:United States",
+      "relation": "has customers in",
+      "score": 0.9597,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "source": "COMP:Orion Technologies",
+      "target": "COUNTRY:Canada",
+      "relation": "has customers in",
+      "score": 0.9368,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "source": "TECH:cloud infrastructure",
+      "target": "COMP:Orion Technologies",
+      "relation": "developed by",
+      "score": 0.9208,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "source": "TECH:enterprise systems",
+      "target": "COMP:Orion Technologies",
+      "relation": "developed by",
+      "score": 0.9002,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "source": "PER:Jennifer Adams",
+      "target": "COMP:Orion Technologies",
+      "relation": "works at",
+      "score": 0.811,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "source": "TEAM:client success team",
+      "target": "SERV:ongoing technical support",
+      "relation": "manages",
+      "score": 0.6492,
+      "chunks": [
+        "input3_0"
+      ]
+    },
+    {
+      "source": "PER:Jennifer Adams",
+      "target": "TEAM:client success team",
+      "relation": "leads",
+      "score": 0.6257,
+      "chunks": [
+        "input3_0"
+      ]
+    }
+  ]
+}
