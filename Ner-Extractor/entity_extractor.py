@@ -1,8 +1,17 @@
+import json
+import re
 import sys
+import warnings
 from collections import defaultdict
 from pathlib import Path
+from typing import NamedTuple
+from labels import LABELS 
 
-from transformers import AutoModelForTokenClassification, AutoTokenizer, pipeline
+# gliner calls torch.jit.script at import time and passes the deprecated `resume_download` to snapshot_download.
+warnings.filterwarnings("ignore", message=".*`torch.jit.script` is deprecated")
+warnings.filterwarnings("ignore", message=".*`resume_download` argument is deprecated")
+
+from gliner import GLiNER  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
@@ -10,15 +19,45 @@ sys.path.insert(0, str(ROOT))
 from text_files.text_parser import Chunk, load_chunks  # noqa: E402
 from coref import Entity, Mention, build_coref_model, predict_clusters, resolve_entities  # noqa: E402
 
-MODEL_NAME = "dslim/bert-base-NER"
+GLINER_MODEL = "gliner-community/gliner_small-v2.5"
+# GLiNER is zero-shot: keys are the prompts it scores spans against, values are the output types.
+LABELS = LABELS
+# Above the 0.5 default: drops generic phrases ("financial services organizations") and bare department names.
+THRESHOLD = 0.7
+# GLiNER truncates inputs past its word limit; this also keeps DeBERTa under 512 subwords with the label prompt.
+MAX_WORDS = 384
 DOC_SEPARATOR = "\n\n"
 
+_WORD = re.compile(r"\w+(?:[-_]\w+)*|\S")
+_SENTENCE_BREAK = re.compile(r"(?<=[.!?])\s+")
 
-def build_ner_pipeline(model_name: str = MODEL_NAME):
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForTokenClassification.from_pretrained(model_name)
-    # "simple" merges word-piece tokens (e.g. "John", "##son") into whole entities.
-    return pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple")
+
+def build_ner_model(model_name: str = GLINER_MODEL, device: str = "cpu") -> GLiNER:
+    return GLiNER.from_pretrained(model_name).to(device)
+
+
+def split_text(text: str, max_words: int = MAX_WORDS) -> list[tuple[int, str]]:
+    """Pack whole sentences into segments of at most `max_words` words, returning (offset, segment) pairs."""
+    bounds = [0] + [m.end() for m in _SENTENCE_BREAK.finditer(text)] + [len(text)]
+    segments: list[tuple[int, str]] = []
+    start, words = 0, 0
+    for sent_start, sent_end in zip(bounds, bounds[1:]):
+        sent_words = len(_WORD.findall(text, sent_start, sent_end))
+        if words and words + sent_words > max_words:
+            segments.append((start, text[start:sent_start]))
+            start, words = sent_start, 0
+        words += sent_words
+    segments.append((start, text[start:]))
+    return segments
+
+
+def predict(text: str, model: GLiNER) -> list[dict]:
+    """GLiNER entities for `text` with offsets relative to it, typed with the PER/ORG/LOC labels."""
+    entities = []
+    for offset, segment in split_text(text):
+        for ent in model.predict_entities(segment, list(LABELS), threshold=THRESHOLD):
+            entities.append({**ent, "type": LABELS[ent["label"]], "start": ent["start"] + offset, "end": ent["end"] + offset})
+    return entities
 
 
 def group_by_source(chunks: list[Chunk]) -> dict[str, list[Chunk]]:
@@ -38,12 +77,12 @@ def join_chunks(chunks: list[Chunk]) -> tuple[str, list[int]]:
     return DOC_SEPARATOR.join(chunk.text for chunk in chunks), offsets
 
 
-def ner_mentions(chunks: list[Chunk], offsets: list[int], text: str, nlp) -> list[Mention]:
+def ner_mentions(chunks: list[Chunk], offsets: list[int], text: str, model: GLiNER) -> list[Mention]:
     mentions: list[Mention] = []
     for chunk, offset in zip(chunks, offsets):
-        for ent in nlp(chunk.text):
+        for ent in predict(chunk.text, model):
             start, end = ent["start"] + offset, ent["end"] + offset
-            mentions.append(Mention(ent["entity_group"], text[start:end].strip(), float(ent["score"]), start, end))
+            mentions.append(Mention(ent["type"], text[start:end].strip(), float(ent["score"]), start, end))
     return mentions
 
 
@@ -66,16 +105,30 @@ def entities_by_chunk(
     return result
 
 
-def extract_entities(chunks: list[Chunk], nlp, coref_model) -> dict[str, list[dict]]:
+class Document(NamedTuple):
+    chunks: list[Chunk]
+    offsets: list[int]
+    entities: list[Entity]
+    mentions: list[Mention]
+
+
+def resolve_documents(chunks: list[Chunk], ner_model: GLiNER, coref_model) -> list[Document]:
+    """Run NER per chunk and coref per source document, returning each document's resolved entities."""
     groups = group_by_source(chunks)
     documents = [join_chunks(group) for group in groups.values()]
     clusters = predict_clusters([text for text, _ in documents], coref_model)
 
-    entities: dict[str, list[dict]] = {}
+    resolved = []
     for group, (text, offsets), doc_clusters in zip(groups.values(), documents, clusters):
-        mentions = ner_mentions(group, offsets, text, nlp)
-        resolved = resolve_entities(text, mentions, doc_clusters)
-        entities.update(entities_by_chunk(group, offsets, resolved, mentions))
+        mentions = ner_mentions(group, offsets, text, ner_model)
+        resolved.append(Document(group, offsets, resolve_entities(text, mentions, doc_clusters), mentions))
+    return resolved
+
+
+def extract_entities(chunks: list[Chunk], ner_model: GLiNER, coref_model) -> dict[str, list[dict]]:
+    entities: dict[str, list[dict]] = {}
+    for doc in resolve_documents(chunks, ner_model, coref_model):
+        entities.update(entities_by_chunk(doc.chunks, doc.offsets, doc.entities, doc.mentions))
     return {chunk.id: entities[chunk.id] for chunk in chunks}
 
 
@@ -83,21 +136,25 @@ def write_entities(entities: dict[str, list[dict]], path: str | Path) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
 
-    lines: list[str] = []
-    for chunk_id, results in entities.items():
-        lines.append(f"[{chunk_id}]")
-        for ent in results:
-            lines.append(f"{ent['entity_group']}\t{ent['word']}\t{ent['score']:.4f}\t{ent['count']}")
-        lines.append("")
-    path.write_text("\n".join(lines), encoding="utf-8")
+    data = [
+        {
+            "id": chunk_id,
+            "entities": [
+                {"type": ent["entity_group"], "name": ent["word"], "score": round(ent["score"], 4), "mentions": ent["count"]}
+                for ent in results
+            ],
+        }
+        for chunk_id, results in entities.items()
+    ]
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 if __name__ == "__main__":
     input_path = sys.argv[1] if len(sys.argv) > 1 else ROOT / "chunks.json"
-    output_path = sys.argv[2] if len(sys.argv) > 2 else Path(__file__).parent / "ner-entities.txt"
+    output_path = sys.argv[2] if len(sys.argv) > 2 else Path(__file__).parent / "ner-entities.json"
 
     chunks = load_chunks(input_path)
-    entities = extract_entities(chunks, build_ner_pipeline(), build_coref_model())
+    entities = extract_entities(chunks, build_ner_model(), build_coref_model())
     write_entities(entities, output_path)
     total = sum(len(v) for v in entities.values())
     print(f"Wrote {total} entities from {len(chunks)} chunks to {output_path}")

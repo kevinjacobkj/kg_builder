@@ -1,0 +1,404 @@
+[
+  {
+    "id": "input1_0",
+    "entities": [
+      {
+        "type": "PER",
+        "name": "Sarah Johnson",
+        "score": 0.9769,
+        "mentions": 3
+      },
+      {
+        "type": "COMP",
+        "name": "Orion Technologies",
+        "score": 0.9909,
+        "mentions": 3
+      },
+      {
+        "type": "DATE",
+        "name": "2021",
+        "score": 0.984,
+        "mentions": 1
+      },
+      {
+        "type": "TITLE",
+        "name": "senior software engineer",
+        "score": 0.9639,
+        "mentions": 1
+      },
+      {
+        "type": "DATE",
+        "name": "2023",
+        "score": 0.9827,
+        "mentions": 1
+      },
+      {
+        "type": "TITLE",
+        "name": "Director of Engineering",
+        "score": 0.9928,
+        "mentions": 1
+      },
+      {
+        "type": "DEPT",
+        "name": "cloud infrastructure team",
+        "score": 0.7625,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Austin",
+        "score": 0.9933,
+        "mentions": 1
+      },
+      {
+        "type": "STATE",
+        "name": "Texas",
+        "score": 0.9032,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Seattle",
+        "score": 0.9956,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Boston",
+        "score": 0.9956,
+        "mentions": 1
+      }
+    ]
+  },
+  {
+    "id": "input1_1",
+    "entities": [
+      {
+        "type": "COMP",
+        "name": "Orion Technologies",
+        "score": 0.9872,
+        "mentions": 4
+      },
+      {
+        "type": "COMP",
+        "name": "DataSphere Analytics",
+        "score": 0.9467,
+        "mentions": 3
+      },
+      {
+        "type": "DATE",
+        "name": "2022",
+        "score": 0.9811,
+        "mentions": 1
+      },
+      {
+        "type": "PER",
+        "name": "Michael Chen",
+        "score": 0.9883,
+        "mentions": 1
+      },
+      {
+        "type": "TITLE",
+        "name": "Chief Data Officer",
+        "score": 0.9922,
+        "mentions": 1
+      },
+      {
+        "type": "ORG",
+        "name": "financial services organizations",
+        "score": 0.9117,
+        "mentions": 1
+      },
+      {
+        "type": "COUNTRY",
+        "name": "United States",
+        "score": 0.9978,
+        "mentions": 1
+      },
+      {
+        "type": "COUNTRY",
+        "name": "Canada",
+        "score": 0.9994,
+        "mentions": 1
+      }
+    ]
+  },
+  {
+    "id": "input1_2",
+    "entities": [
+      {
+        "type": "DATE",
+        "name": "2024",
+        "score": 0.9867,
+        "mentions": 1
+      },
+      {
+        "type": "COMP",
+        "name": "Orion Technologies",
+        "score": 0.9326,
+        "mentions": 1
+      },
+      {
+        "type": "PLAT",
+        "name": "Orion Cloud",
+        "score": 0.9495,
+        "mentions": 4
+      },
+      {
+        "type": "PER",
+        "name": "Sarah Johnson",
+        "score": 0.9691,
+        "mentions": 1
+      },
+      {
+        "type": "DEPT",
+        "name": "engineering organization",
+        "score": 0.7366,
+        "mentions": 1
+      },
+      {
+        "type": "PER",
+        "name": "Michael Chen",
+        "score": 0.966,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Austin",
+        "score": 0.9672,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Seattle",
+        "score": 0.984,
+        "mentions": 1
+      }
+    ]
+  },
+  {
+    "id": "input2_acc_0",
+    "entities": [
+      {
+        "type": "TEAM",
+        "name": "Accounting team",
+        "score": 0.8343,
+        "mentions": 4
+      },
+      {
+        "type": "COMP",
+        "name": "Orion Technologies",
+        "score": 0.9874,
+        "mentions": 3
+      },
+      {
+        "type": "PROCESS",
+        "name": "financial reporting",
+        "score": 0.8393,
+        "mentions": 1
+      },
+      {
+        "type": "FUNCTION",
+        "name": "budgeting",
+        "score": 0.7707,
+        "mentions": 1
+      },
+      {
+        "type": "FUNCTION",
+        "name": "forecasting",
+        "score": 0.736,
+        "mentions": 1
+      },
+      {
+        "type": "PER",
+        "name": "Laura Martinez",
+        "score": 0.9418,
+        "mentions": 1
+      },
+      {
+        "type": "TITLE",
+        "name": "Vice President of Finance",
+        "score": 0.9573,
+        "mentions": 1
+      },
+      {
+        "type": "TEAM",
+        "name": "accountants",
+        "score": 0.7558,
+        "mentions": 1
+      },
+      {
+        "type": "TEAM",
+        "name": "financial analysts",
+        "score": 0.8173,
+        "mentions": 1
+      },
+      {
+        "type": "TEAM",
+        "name": "accounting managers",
+        "score": 0.8466,
+        "mentions": 1
+      },
+      {
+        "type": "DEPT",
+        "name": "Accounts Payable",
+        "score": 0.9118,
+        "mentions": 1
+      },
+      {
+        "type": "DEPT",
+        "name": "Accounts Receivable",
+        "score": 0.9011,
+        "mentions": 1
+      },
+      {
+        "type": "FUNCTION",
+        "name": "financial records",
+        "score": 0.7259,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Austin",
+        "score": 0.9856,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Seattle",
+        "score": 0.9909,
+        "mentions": 1
+      }
+    ]
+  },
+  {
+    "id": "input2_acc_1",
+    "entities": [
+      {
+        "type": "DATE",
+        "name": "2023",
+        "score": 0.9872,
+        "mentions": 1
+      },
+      {
+        "type": "COMP",
+        "name": "Orion Technologies",
+        "score": 0.9894,
+        "mentions": 3
+      },
+      {
+        "type": "PER",
+        "name": "David Wilson",
+        "score": 0.9304,
+        "mentions": 2
+      },
+      {
+        "type": "TITLE",
+        "name": "Director of Accounting",
+        "score": 0.9715,
+        "mentions": 1
+      },
+      {
+        "type": "PROCESS",
+        "name": "financial reporting operations",
+        "score": 0.7216,
+        "mentions": 1
+      },
+      {
+        "type": "PER",
+        "name": "Laura Martinez",
+        "score": 0.9624,
+        "mentions": 1
+      },
+      {
+        "type": "DEPT",
+        "name": "Legal",
+        "score": 0.8096,
+        "mentions": 1
+      },
+      {
+        "type": "DEPT",
+        "name": "Finance",
+        "score": 0.7399,
+        "mentions": 1
+      },
+      {
+        "type": "TEAM",
+        "name": "Accounting team",
+        "score": 0.8333,
+        "mentions": 2
+      },
+      {
+        "type": "PLAT",
+        "name": "Orion Cloud",
+        "score": 0.8793,
+        "mentions": 2
+      },
+      {
+        "type": "MONEY",
+        "name": "revenue",
+        "score": 0.8367,
+        "mentions": 1
+      },
+      {
+        "type": "PLAT",
+        "name": "platform",
+        "score": 0.8856,
+        "mentions": 1
+      },
+      {
+        "type": "TECH",
+        "name": "cloud-related",
+        "score": 0.7539,
+        "mentions": 1
+      }
+    ]
+  },
+  {
+    "id": "input2_acc_2",
+    "entities": [
+      {
+        "type": "DATE",
+        "name": "2024",
+        "score": 0.99,
+        "mentions": 1
+      },
+      {
+        "type": "TEAM",
+        "name": "Accounting team",
+        "score": 0.9524,
+        "mentions": 2
+      },
+      {
+        "type": "PER",
+        "name": "Laura Martinez",
+        "score": 0.9692,
+        "mentions": 1
+      },
+      {
+        "type": "PER",
+        "name": "David Wilson",
+        "score": 0.97,
+        "mentions": 1
+      },
+      {
+        "type": "COMP",
+        "name": "Orion Technologies",
+        "score": 0.9655,
+        "mentions": 2
+      },
+      {
+        "type": "TEAM",
+        "name": "Enterprise Systems team",
+        "score": 0.9101,
+        "mentions": 1
+      },
+      {
+        "type": "CITY",
+        "name": "Seattle",
+        "score": 0.9805,
+        "mentions": 1
+      }
+    ]
+  }
+]

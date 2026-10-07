@@ -1,0 +1,752 @@
+[
+  {
+    "id": "input1_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Seattle",
+          "type": "CITY"
+        },
+        "score": 0.9663
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "2021",
+          "type": "DATE"
+        },
+        "score": 0.9536
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Boston",
+          "type": "CITY"
+        },
+        "score": 0.9476
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "joined",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.9409
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Austin",
+          "type": "CITY"
+        },
+        "score": 0.8835
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "promoted to",
+        "tail": {
+          "name": "Director of Engineering",
+          "type": "TITLE"
+        },
+        "score": 0.87
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.8525
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "promoted in",
+        "tail": {
+          "name": "2023",
+          "type": "DATE"
+        },
+        "score": 0.8365
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "cloud infrastructure team",
+          "type": "DEPT"
+        },
+        "score": 0.8103
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "senior software engineer",
+          "type": "TITLE"
+        },
+        "score": 0.7611
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2021",
+          "type": "DATE"
+        },
+        "score": 0.7116
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2023",
+          "type": "DATE"
+        },
+        "score": 0.683
+      },
+      {
+        "head": {
+          "name": "cloud infrastructure team",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.6355
+      }
+    ]
+  },
+  {
+    "id": "input1_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "acquired",
+        "tail": {
+          "name": "DataSphere Analytics",
+          "type": "COMP"
+        },
+        "score": 0.9511
+      },
+      {
+        "head": {
+          "name": "DataSphere Analytics",
+          "type": "COMP"
+        },
+        "relation": "has customers in",
+        "tail": {
+          "name": "United States",
+          "type": "COUNTRY"
+        },
+        "score": 0.8928
+      },
+      {
+        "head": {
+          "name": "DataSphere Analytics",
+          "type": "COMP"
+        },
+        "relation": "has customers in",
+        "tail": {
+          "name": "Canada",
+          "type": "COUNTRY"
+        },
+        "score": 0.8916
+      },
+      {
+        "head": {
+          "name": "Michael Chen",
+          "type": "PER"
+        },
+        "relation": "founded",
+        "tail": {
+          "name": "DataSphere Analytics",
+          "type": "COMP"
+        },
+        "score": 0.8612
+      },
+      {
+        "head": {
+          "name": "DataSphere Analytics",
+          "type": "COMP"
+        },
+        "relation": "was acquired in",
+        "tail": {
+          "name": "2022",
+          "type": "DATE"
+        },
+        "score": 0.8582
+      },
+      {
+        "head": {
+          "name": "Michael Chen",
+          "type": "PER"
+        },
+        "relation": "joined",
+        "tail": {
+          "name": "DataSphere Analytics",
+          "type": "COMP"
+        },
+        "score": 0.6687
+      },
+      {
+        "head": {
+          "name": "Michael Chen",
+          "type": "PER"
+        },
+        "relation": "promoted to",
+        "tail": {
+          "name": "Chief Data Officer",
+          "type": "TITLE"
+        },
+        "score": 0.6618
+      },
+      {
+        "head": {
+          "name": "Michael Chen",
+          "type": "PER"
+        },
+        "relation": "joined",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.6387
+      },
+      {
+        "head": {
+          "name": "Michael Chen",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DataSphere Analytics",
+          "type": "COMP"
+        },
+        "score": 0.6206
+      }
+    ]
+  },
+  {
+    "id": "input1_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "Orion Cloud",
+          "type": "PLAT"
+        },
+        "relation": "launched in",
+        "tail": {
+          "name": "2024",
+          "type": "DATE"
+        },
+        "score": 0.9875
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "launched",
+        "tail": {
+          "name": "Orion Cloud",
+          "type": "PLAT"
+        },
+        "score": 0.9754
+      },
+      {
+        "head": {
+          "name": "Orion Cloud",
+          "type": "PLAT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "teams",
+          "type": "TEAM"
+        },
+        "score": 0.8892
+      },
+      {
+        "head": {
+          "name": "teams",
+          "type": "TEAM"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Austin",
+          "type": "CITY"
+        },
+        "score": 0.802
+      },
+      {
+        "head": {
+          "name": "teams",
+          "type": "TEAM"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Seattle",
+          "type": "CITY"
+        },
+        "score": 0.7983
+      },
+      {
+        "head": {
+          "name": "Orion Cloud",
+          "type": "PLAT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.7188
+      },
+      {
+        "head": {
+          "name": "Sarah Johnson",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "engineering organization",
+          "type": "DEPT"
+        },
+        "score": 0.6872
+      }
+    ]
+  },
+  {
+    "id": "input2_acc_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Laura Martinez",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Vice President of Finance",
+          "type": "TITLE"
+        },
+        "score": 0.9791
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "Accounts Payable",
+          "type": "DEPT"
+        },
+        "score": 0.9362
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "financial reporting",
+          "type": "PROCESS"
+        },
+        "score": 0.9309
+      },
+      {
+        "head": {
+          "name": "Laura Martinez",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "score": 0.9091
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "Accounts Receivable",
+          "type": "DEPT"
+        },
+        "score": 0.9051
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "budgeting",
+          "type": "FUNCTION"
+        },
+        "score": 0.886
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "forecasting",
+          "type": "FUNCTION"
+        },
+        "score": 0.8731
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "vendor payments",
+          "type": "PROCESS"
+        },
+        "score": 0.8604
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "financial records",
+          "type": "FUNCTION"
+        },
+        "score": 0.8518
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "customer invoices",
+          "type": "PROCESS"
+        },
+        "score": 0.8406
+      },
+      {
+        "head": {
+          "name": "Laura Martinez",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.8131
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Seattle",
+          "type": "CITY"
+        },
+        "score": 0.7442
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Austin",
+          "type": "CITY"
+        },
+        "score": 0.6532
+      }
+    ]
+  },
+  {
+    "id": "input2_acc_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Director of Accounting",
+          "type": "TITLE"
+        },
+        "score": 0.9656
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2023",
+          "type": "DATE"
+        },
+        "score": 0.963
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "appointed",
+        "tail": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "score": 0.946
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "Laura Martinez",
+          "type": "PER"
+        },
+        "score": 0.9434
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "promoted to",
+        "tail": {
+          "name": "Director of Accounting",
+          "type": "TITLE"
+        },
+        "score": 0.7872
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "joined",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.7631
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.6877
+      },
+      {
+        "head": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "Orion Cloud",
+          "type": "PLAT"
+        },
+        "score": 0.6714
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "2023",
+          "type": "DATE"
+        },
+        "score": 0.6208
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "financial reporting operations",
+          "type": "PROCESS"
+        },
+        "score": 0.6149
+      }
+    ]
+  },
+  {
+    "id": "input2_acc_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "financial management system",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "score": 0.9624
+      },
+      {
+        "head": {
+          "name": "financial management system",
+          "type": "SOFT"
+        },
+        "relation": "launched in",
+        "tail": {
+          "name": "2024",
+          "type": "DATE"
+        },
+        "score": 0.8912
+      },
+      {
+        "head": {
+          "name": "Laura Martinez",
+          "type": "PER"
+        },
+        "relation": "sponsored",
+        "tail": {
+          "name": "project",
+          "type": "PROJECT"
+        },
+        "score": 0.8762
+      },
+      {
+        "head": {
+          "name": "Orion Technologies",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Seattle",
+          "type": "CITY"
+        },
+        "score": 0.7965
+      },
+      {
+        "head": {
+          "name": "Laura Martinez",
+          "type": "PER"
+        },
+        "relation": "sponsored",
+        "tail": {
+          "name": "financial management system",
+          "type": "SOFT"
+        },
+        "score": 0.7882
+      },
+      {
+        "head": {
+          "name": "financial management system",
+          "type": "SOFT"
+        },
+        "relation": "implemented in",
+        "tail": {
+          "name": "2024",
+          "type": "DATE"
+        },
+        "score": 0.7367
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "score": 0.691
+      },
+      {
+        "head": {
+          "name": "David Wilson",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "Accounting team",
+          "type": "TEAM"
+        },
+        "score": 0.6173
+      }
+    ]
+  }
+]

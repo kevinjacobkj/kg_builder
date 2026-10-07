@@ -1,13 +1,15 @@
 Chunk extractor:
 py text_files/text_parser.py
 
-NER (with biu-nlp/f-coref coreference; needs: py -m pip install fastcoref,
-spaCy's en_core_web_sm is downloaded automatically on first run):
-py Ner-Extractor/entity_extractor.py
-Output columns: type, canonical name, max score, mention count (NER + coref mentions in that chunk)
+
+
 
 LLM (needs OPENAI_API_KEY in .env, optional OPENAI_MODEL):
 py LLM-Extractor/entity_extractor.py
 
-Definition
+
+
+
+
+Abbr
 NER:  Named Entity Recognition
