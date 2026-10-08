@@ -1,852 +1,6774 @@
 [
   {
-    "id": "input1_0",
+    "id": "consolidated__generic__authorized_signatory_contact_block_0",
     "relationships": [
       {
         "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "relation": "has office in",
-        "tail": {
-          "name": "Seattle",
-          "type": "CITY"
-        },
-        "score": 0.9663
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "joined in",
-        "tail": {
-          "name": "2021",
-          "type": "DATE"
-        },
-        "score": 0.9536
-      },
-      {
-        "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "relation": "has office in",
-        "tail": {
-          "name": "Boston",
-          "type": "CITY"
-        },
-        "score": 0.9476
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "joined",
-        "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "score": 0.9409
-      },
-      {
-        "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "relation": "headquartered in",
-        "tail": {
-          "name": "Austin",
-          "type": "CITY"
-        },
-        "score": 0.8835
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "promoted to",
-        "tail": {
-          "name": "Director of Engineering",
-          "type": "TITLE"
-        },
-        "score": 0.87
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "works at",
-        "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "score": 0.8525
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "promoted in",
-        "tail": {
-          "name": "2023",
-          "type": "DATE"
-        },
-        "score": 0.8365
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "leads",
-        "tail": {
-          "name": "cloud infrastructure team",
-          "type": "DEPT"
-        },
-        "score": 0.8103
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "has job title",
-        "tail": {
-          "name": "senior software engineer",
-          "type": "TITLE"
-        },
-        "score": 0.7611
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "appointed in",
-        "tail": {
-          "name": "2021",
-          "type": "DATE"
-        },
-        "score": 0.7116
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "appointed in",
-        "tail": {
-          "name": "2023",
-          "type": "DATE"
-        },
-        "score": 0.683
-      },
-      {
-        "head": {
-          "name": "cloud infrastructure team",
-          "type": "DEPT"
-        },
-        "relation": "part of",
-        "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "score": 0.6355
-      }
-    ]
-  },
-  {
-    "id": "input1_1",
-    "relationships": [
-      {
-        "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "relation": "acquired",
-        "tail": {
-          "name": "DataSphere Analytics",
-          "type": "COMP"
-        },
-        "score": 0.9511
-      },
-      {
-        "head": {
-          "name": "DataSphere Analytics",
-          "type": "COMP"
-        },
-        "relation": "has customers in",
-        "tail": {
-          "name": "United States",
-          "type": "COUNTRY"
-        },
-        "score": 0.8928
-      },
-      {
-        "head": {
-          "name": "DataSphere Analytics",
-          "type": "COMP"
-        },
-        "relation": "has customers in",
-        "tail": {
-          "name": "Canada",
-          "type": "COUNTRY"
-        },
-        "score": 0.8916
-      },
-      {
-        "head": {
-          "name": "Michael Chen",
+          "name": "Nabil Refai",
           "type": "PER"
         },
         "relation": "founded",
         "tail": {
-          "name": "DataSphere Analytics",
+          "name": "Diversified Services Network, Inc.",
           "type": "COMP"
         },
-        "score": 0.8612
+        "score": 0.9815
       },
       {
         "head": {
-          "name": "DataSphere Analytics",
-          "type": "COMP"
-        },
-        "relation": "was acquired in",
-        "tail": {
-          "name": "2022",
-          "type": "DATE"
-        },
-        "score": 0.8582
-      },
-      {
-        "head": {
-          "name": "Michael Chen",
-          "type": "PER"
-        },
-        "relation": "joined",
-        "tail": {
-          "name": "DataSphere Analytics",
-          "type": "COMP"
-        },
-        "score": 0.6687
-      },
-      {
-        "head": {
-          "name": "Michael Chen",
-          "type": "PER"
-        },
-        "relation": "promoted to",
-        "tail": {
-          "name": "Chief Data Officer",
-          "type": "TITLE"
-        },
-        "score": 0.6618
-      },
-      {
-        "head": {
-          "name": "Michael Chen",
-          "type": "PER"
-        },
-        "relation": "joined",
-        "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "score": 0.6387
-      },
-      {
-        "head": {
-          "name": "Michael Chen",
-          "type": "PER"
-        },
-        "relation": "works at",
-        "tail": {
-          "name": "DataSphere Analytics",
-          "type": "COMP"
-        },
-        "score": 0.6206
-      }
-    ]
-  },
-  {
-    "id": "input1_2",
-    "relationships": [
-      {
-        "head": {
-          "name": "Orion Cloud",
-          "type": "PLAT"
-        },
-        "relation": "launched in",
-        "tail": {
-          "name": "2024",
-          "type": "DATE"
-        },
-        "score": 0.9875
-      },
-      {
-        "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "relation": "launched",
-        "tail": {
-          "name": "Orion Cloud",
-          "type": "PLAT"
-        },
-        "score": 0.9754
-      },
-      {
-        "head": {
-          "name": "Orion Cloud",
-          "type": "PLAT"
-        },
-        "relation": "developed by",
-        "tail": {
-          "name": "teams",
-          "type": "TEAM"
-        },
-        "score": 0.8892
-      },
-      {
-        "head": {
-          "name": "teams",
-          "type": "TEAM"
-        },
-        "relation": "based in",
-        "tail": {
-          "name": "Austin",
-          "type": "CITY"
-        },
-        "score": 0.802
-      },
-      {
-        "head": {
-          "name": "teams",
-          "type": "TEAM"
-        },
-        "relation": "based in",
-        "tail": {
-          "name": "Seattle",
-          "type": "CITY"
-        },
-        "score": 0.7983
-      },
-      {
-        "head": {
-          "name": "Orion Cloud",
-          "type": "PLAT"
-        },
-        "relation": "developed by",
-        "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "score": 0.7188
-      },
-      {
-        "head": {
-          "name": "Sarah Johnson",
-          "type": "PER"
-        },
-        "relation": "oversees",
-        "tail": {
-          "name": "engineering organization",
-          "type": "DEPT"
-        },
-        "score": 0.6872
-      }
-    ]
-  },
-  {
-    "id": "input2_0",
-    "relationships": [
-      {
-        "head": {
-          "name": "Laura Martinez",
+          "name": "Nabil Refai",
           "type": "PER"
         },
         "relation": "has job title",
         "tail": {
-          "name": "Vice President of Finance",
+          "name": "Co-Founder",
           "type": "TITLE"
         },
-        "score": 0.9791
+        "score": 0.9588
       },
       {
         "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "works with",
-        "tail": {
-          "name": "Accounts Payable",
-          "type": "DEPT"
-        },
-        "score": 0.9362
-      },
-      {
-        "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "manages",
-        "tail": {
-          "name": "financial reporting",
-          "type": "PROCESS"
-        },
-        "score": 0.9309
-      },
-      {
-        "head": {
-          "name": "Laura Martinez",
+          "name": "Nabil Refai",
           "type": "PER"
         },
-        "relation": "leads",
+        "relation": "has job title",
         "tail": {
-          "name": "Accounting team",
-          "type": "TEAM"
+          "name": "Vice President",
+          "type": "TITLE"
         },
-        "score": 0.9091
+        "score": 0.9566
       },
       {
         "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "works with",
-        "tail": {
-          "name": "Accounts Receivable",
-          "type": "DEPT"
-        },
-        "score": 0.9051
-      },
-      {
-        "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "manages",
-        "tail": {
-          "name": "budgeting",
-          "type": "FUNCTION"
-        },
-        "score": 0.886
-      },
-      {
-        "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "manages",
-        "tail": {
-          "name": "forecasting",
-          "type": "FUNCTION"
-        },
-        "score": 0.8731
-      },
-      {
-        "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "supports",
-        "tail": {
-          "name": "vendor payments",
-          "type": "PROCESS"
-        },
-        "score": 0.8604
-      },
-      {
-        "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "supports",
-        "tail": {
-          "name": "financial records",
-          "type": "FUNCTION"
-        },
-        "score": 0.8518
-      },
-      {
-        "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "supports",
-        "tail": {
-          "name": "customer invoices",
-          "type": "PROCESS"
-        },
-        "score": 0.8406
-      },
-      {
-        "head": {
-          "name": "Laura Martinez",
+          "name": "Nabil Refai",
           "type": "PER"
         },
         "relation": "works at",
         "tail": {
-          "name": "Orion Technologies",
+          "name": "Diversified Services Network, Inc.",
           "type": "COMP"
         },
-        "score": 0.8131
+        "score": 0.9384
       },
       {
         "head": {
-          "name": "Orion Technologies",
+          "name": "Nabil Refai",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7742
+      },
+      {
+        "head": {
+          "name": "Nabil Refai",
+          "type": "PER"
+        },
+        "relation": "founded",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6111
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__authorized_signatory_contact_block_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Naperville",
+          "type": "CITY"
+        },
+        "score": 0.6371
+      },
+      {
+        "head": {
+          "name": "Diversified Services Network, Inc.",
           "type": "COMP"
         },
         "relation": "has office in",
         "tail": {
-          "name": "Seattle",
-          "type": "CITY"
+          "name": "60564",
+          "type": "LOC"
         },
-        "score": 0.7442
-      },
-      {
-        "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "relation": "based in",
-        "tail": {
-          "name": "Austin",
-          "type": "CITY"
-        },
-        "score": 0.6532
+        "score": 0.623
       }
     ]
   },
   {
-    "id": "input2_1",
+    "id": "consolidated__generic__ifb_transmittal_letter_0",
     "relationships": [
       {
         "head": {
-          "name": "David Wilson",
+          "name": "professional services",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.8451
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_7",
+    "relationships": [
+      {
+        "head": {
+          "name": "project",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7173
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_10",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_12",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_13",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__ifb_transmittal_letter_14",
+    "relationships": [
+      {
+        "head": {
+          "name": "services",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9032
+      },
+      {
+        "head": {
+          "name": "project",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6418
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__firm_overview_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "technology",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9481
+      },
+      {
+        "head": {
+          "name": "technology",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8613
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__firm_overview_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Naperville",
+          "type": "CITY"
+        },
+        "score": 0.985
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Springfield",
+          "type": "CITY"
+        },
+        "score": 0.9389
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Peoria",
+          "type": "CITY"
+        },
+        "score": 0.9247
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Indianapolis",
+          "type": "CITY"
+        },
+        "score": 0.8936
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Fond du Lac",
+          "type": "CITY"
+        },
+        "score": 0.8932
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.7079
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__firm_overview_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_overview_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_overview_4",
+    "relationships": [
+      {
+        "head": {
+          "name": "grant writing",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9589
+      },
+      {
+        "head": {
+          "name": "client",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.855
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__firm_overview_5",
+    "relationships": [
+      {
+        "head": {
+          "name": "transportation",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9158
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__firm_overview_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_overview_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_overview_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__mission_core_values_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__mission_core_values_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__mission_core_values_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__mission_core_values_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "products",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9718
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__mission_core_values_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__mission_core_values_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__mission_core_values_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__repeat_client_retention_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "clients",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.8778
+      },
+      {
+        "head": {
+          "name": "projects",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.8612
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__personnel_bob_laurent_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "BOB LAURENT",
           "type": "PER"
         },
         "relation": "has job title",
         "tail": {
-          "name": "Director of Accounting",
+          "name": "project manager",
           "type": "TITLE"
         },
-        "score": 0.9656
+        "score": 0.9669
       },
       {
         "head": {
-          "name": "David Wilson",
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Project Coordinator",
+          "type": "TITLE"
+        },
+        "score": 0.9461
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Developer",
+          "type": "TITLE"
+        },
+        "score": 0.9205
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Lead Programmer / Analyst",
+          "type": "TITLE"
+        },
+        "score": 0.908
+      },
+      {
+        "head": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Project Coordinator",
+          "type": "TITLE"
+        },
+        "score": 0.9019
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Project Manager",
+          "type": "TITLE"
+        },
+        "score": 0.8839
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "project development teams",
+          "type": "TEAM"
+        },
+        "score": 0.8681
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Federal Claiming technical representative",
+          "type": "TITLE"
+        },
+        "score": 0.8656
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
           "type": "PER"
         },
         "relation": "appointed in",
         "tail": {
-          "name": "2023",
+          "name": "1997",
           "type": "DATE"
         },
-        "score": 0.963
+        "score": 0.8563
       },
       {
         "head": {
-          "name": "Orion Technologies",
+          "name": "Eztrieve Plus",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "score": 0.8433
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "IT professionals",
+          "type": "TEAM"
+        },
+        "score": 0.8424
+      },
+      {
+        "head": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Lead Programmer / Analyst",
+          "type": "TITLE"
+        },
+        "score": 0.8351
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "bureaus",
+          "type": "DEPT"
+        },
+        "score": 0.8267
+      },
+      {
+        "head": {
+          "name": "IDEAL",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "score": 0.8195
+      },
+      {
+        "head": {
+          "name": "MVS JCL",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "score": 0.8187
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Technical Liaison",
+          "type": "TITLE"
+        },
+        "score": 0.8028
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Programmer / Analyst",
+          "type": "TITLE"
+        },
+        "score": 0.7997
+      },
+      {
+        "head": {
+          "name": "bureaus",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "agency",
+          "type": "ORG"
+        },
+        "score": 0.7961
+      },
+      {
+        "head": {
+          "name": "Datacom Data Base Structure",
+          "type": "DB"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "score": 0.7915
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "agency",
+          "type": "ORG"
+        },
+        "score": 0.7912
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "IBM",
           "type": "COMP"
         },
-        "relation": "appointed",
-        "tail": {
-          "name": "David Wilson",
+        "score": 0.7595
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
           "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "1979",
+          "type": "DATE"
+        },
+        "score": 0.7382
+      },
+      {
+        "head": {
+          "name": "MARS FFP",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "score": 0.7344
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Lincoln Land Community College",
+          "type": "ORG"
+        },
+        "score": 0.7331
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "IBM",
+          "type": "COMP"
+        },
+        "score": 0.7217
+      },
+      {
+        "head": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Programmer / Analyst",
+          "type": "TITLE"
+        },
+        "score": 0.714
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "promoted in",
+        "tail": {
+          "name": "1979",
+          "type": "DATE"
+        },
+        "score": 0.7123
+      },
+      {
+        "head": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "1979",
+          "type": "DATE"
+        },
+        "score": 0.6898
+      },
+      {
+        "head": {
+          "name": "Batch",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "score": 0.6887
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "1998",
+          "type": "DATE"
+        },
+        "score": 0.6775
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "1979",
+          "type": "DATE"
+        },
+        "score": 0.6715
+      },
+      {
+        "head": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "COBOL IMS DB/DC",
+          "type": "DB"
+        },
+        "score": 0.6685
+      },
+      {
+        "head": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "relation": "promoted in",
+        "tail": {
+          "name": "1979",
+          "type": "DATE"
+        },
+        "score": 0.6518
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "reports to",
+        "tail": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "score": 0.6431
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Technical Lead",
+          "type": "TITLE"
+        },
+        "score": 0.6429
+      },
+      {
+        "head": {
+          "name": "Eztrieve Plus",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "score": 0.6417
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Lead Developer",
+          "type": "TITLE"
+        },
+        "score": 0.6261
+      },
+      {
+        "head": {
+          "name": "BOB LAURENT",
+          "type": "PER"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.6178
+      },
+      {
+        "head": {
+          "name": "Mr. Laurent",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "1996",
+          "type": "DATE"
+        },
+        "score": 0.6164
+      },
+      {
+        "head": {
+          "name": "Laurent",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "1979",
+          "type": "DATE"
+        },
+        "score": 0.6087
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__personnel_nabil_refai_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Nabil Refai",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9717
+      },
+      {
+        "head": {
+          "name": "Nabil Refai",
+          "type": "PER"
+        },
+        "relation": "founded",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9547
+      },
+      {
+        "head": {
+          "name": "Nabil Refai",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Vice President",
+          "type": "TITLE"
         },
         "score": 0.946
       },
       {
         "head": {
-          "name": "David Wilson",
+          "name": "Nabil Refai",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Co-Founder",
+          "type": "TITLE"
+        },
+        "score": 0.9164
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__personnel_nabil_refai_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "customer relationship leadership",
+          "type": "TITLE"
+        },
+        "score": 0.9601
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "multi-stakeholder projects",
+          "type": "PROJECT"
+        },
+        "score": 0.9238
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
           "type": "PER"
         },
         "relation": "works with",
         "tail": {
-          "name": "Laura Martinez",
-          "type": "PER"
+          "name": "team",
+          "type": "TEAM"
         },
-        "score": 0.9434
+        "score": 0.9212
       },
       {
         "head": {
-          "name": "David Wilson",
+          "name": "Mr. Refai",
           "type": "PER"
         },
-        "relation": "promoted to",
+        "relation": "works at",
         "tail": {
-          "name": "Director of Accounting",
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9191
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "engagement teams",
+          "type": "TEAM"
+        },
+        "score": 0.9129
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "founded",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8855
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "team",
+          "type": "TEAM"
+        },
+        "score": 0.8713
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "1989",
+          "type": "DATE"
+        },
+        "score": 0.7698
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "engagement teams",
+          "type": "TEAM"
+        },
+        "score": 0.7001
+      },
+      {
+        "head": {
+          "name": "Mr. Refai",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "engagement teams",
+          "type": "TEAM"
+        },
+        "score": 0.6827
+      },
+      {
+        "head": {
+          "name": "multi-stakeholder projects",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6136
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__personnel_paul_brown_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Chief System Architect",
           "type": "TITLE"
         },
-        "score": 0.7872
+        "score": 0.9901
       },
       {
         "head": {
-          "name": "David Wilson",
+          "name": "Mr. Brown",
           "type": "PER"
         },
-        "relation": "joined",
+        "relation": "has job title",
         "tail": {
-          "name": "Orion Technologies",
+          "name": "Database Administrator",
+          "type": "TITLE"
+        },
+        "score": 0.959
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Project Manager",
+          "type": "TITLE"
+        },
+        "score": 0.9513
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Technical Leader",
+          "type": "TITLE"
+        },
+        "score": 0.9486
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Developer",
+          "type": "TITLE"
+        },
+        "score": 0.9319
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Systems Analyst",
+          "type": "TITLE"
+        },
+        "score": 0.9309
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "project manager",
+          "type": "TITLE"
+        },
+        "score": 0.927
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Team Leader",
+          "type": "TITLE"
+        },
+        "score": 0.9249
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "primary developer",
+          "type": "TITLE"
+        },
+        "score": 0.9162
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "co-project manager",
+          "type": "TITLE"
+        },
+        "score": 0.911
+      },
+      {
+        "head": {
+          "name": "Team Foundation Server",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "score": 0.8892
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "1992",
+          "type": "DATE"
+        },
+        "score": 0.8848
+      },
+      {
+        "head": {
+          "name": "SharePoint",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "score": 0.8751
+      },
+      {
+        "head": {
+          "name": "FoxPro",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "score": 0.8724
+      },
+      {
+        "head": {
+          "name": "Visual Studio 6",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "score": 0.8704
+      },
+      {
+        "head": {
+          "name": "applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "score": 0.8569
+      },
+      {
+        "head": {
+          "name": "Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "project manager",
+          "type": "TITLE"
+        },
+        "score": 0.8555
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2003",
+          "type": "DATE"
+        },
+        "score": 0.8502
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2017",
+          "type": "DATE"
+        },
+        "score": 0.8404
+      },
+      {
+        "head": {
+          "name": "TFS",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "score": 0.8204
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "2003",
+          "type": "DATE"
+        },
+        "score": 0.8107
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2005",
+          "type": "DATE"
+        },
+        "score": 0.7814
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "promoted in",
+        "tail": {
+          "name": "2017",
+          "type": "DATE"
+        },
+        "score": 0.7644
+      },
+      {
+        "head": {
+          "name": "application",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "score": 0.7627
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Lead Technician",
+          "type": "TITLE"
+        },
+        "score": 0.7437
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "1992",
+          "type": "DATE"
+        },
+        "score": 0.7113
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2016",
+          "type": "DATE"
+        },
+        "score": 0.6998
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "promoted in",
+        "tail": {
+          "name": "2014",
+          "type": "DATE"
+        },
+        "score": 0.696
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "joined in",
+        "tail": {
+          "name": "2005",
+          "type": "DATE"
+        },
+        "score": 0.6954
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2014",
+          "type": "DATE"
+        },
+        "score": 0.6838
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "lead developer",
+          "type": "TITLE"
+        },
+        "score": 0.6721
+      },
+      {
+        "head": {
+          "name": "Brown",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "video services",
+          "type": "SERV"
+        },
+        "score": 0.6706
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "promoted in",
+        "tail": {
+          "name": "2003",
+          "type": "DATE"
+        },
+        "score": 0.6687
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "promoted in",
+        "tail": {
+          "name": "2016",
+          "type": "DATE"
+        },
+        "score": 0.6574
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2009",
+          "type": "DATE"
+        },
+        "score": 0.6513
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "2013",
+          "type": "DATE"
+        },
+        "score": 0.6362
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Architect",
+          "type": "TITLE"
+        },
+        "score": 0.6287
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "appointed in",
+        "tail": {
+          "name": "1994",
+          "type": "DATE"
+        },
+        "score": 0.6184
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "help desk support",
+          "type": "FUNCTION"
+        },
+        "score": 0.6175
+      },
+      {
+        "head": {
+          "name": "Mr. Brown",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Manager",
+          "type": "TITLE"
+        },
+        "score": 0.6157
+      },
+      {
+        "head": {
+          "name": "PC/LAN Application Development Unit (PLADU)",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "Illinois Department of Children and Family Services",
+          "type": "DEPT"
+        },
+        "score": 0.6054
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__certifications_diversity_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__certifications_diversity_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__certifications_diversity_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Missouri",
+          "type": "STATE"
+        },
+        "score": 0.8255
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Missouri",
+          "type": "STATE"
+        },
+        "score": 0.8153
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.8129
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__certifications_diversity_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__certifications_diversity_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__conflict_of_interest_independence_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__conflict_of_interest_independence_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__conflict_of_interest_independence_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_identifiers_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_identifiers_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_identifiers_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_identifiers_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "Business Enterprise Program",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "WBENC",
+          "type": "ORG"
+        },
+        "score": 0.6534
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__firm_identifiers_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__firm_identifiers_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__generic__insurance_coverage_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "professional liability insurance",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9682
+      },
+      {
+        "head": {
+          "name": "general liability insurance",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9653
+      },
+      {
+        "head": {
+          "name": "workers'\ncompensation",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9521
+      },
+      {
+        "head": {
+          "name": "professional liability insurance",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8125
+      },
+      {
+        "head": {
+          "name": "general liability insurance",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7485
+      },
+      {
+        "head": {
+          "name": "workers'\ncompensation",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7174
+      }
+    ]
+  },
+  {
+    "id": "consolidated__generic__responsible_responsive_bidder_assurance_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.7956
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__cover_letter_transmittal_framing_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "GAT",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7217
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__dsn_core_services_list_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Grant Writing",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6826
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__firm_capabilities_human_services_consulting_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__gat_experience_overview_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "innovative solutions",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9616
+      },
+      {
+        "head": {
+          "name": "technical resources",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9528
+      },
+      {
+        "head": {
+          "name": "innovative solutions",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9204
+      },
+      {
+        "head": {
+          "name": "consulting services",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.913
+      },
+      {
+        "head": {
+          "name": "technical resources",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9033
+      },
+      {
+        "head": {
+          "name": "consulting services",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.819
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__gat_experience_overview_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__gat_experience_overview_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__value_proposition_why_dsn_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "volunteers",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.8342
+      },
+      {
+        "head": {
+          "name": "training",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.6453
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__communication_reporting_plan_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "grant writing process",
+          "type": "PROCESS"
+        },
+        "score": 0.8259
+      },
+      {
+        "head": {
+          "name": "Smartsheet",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "score": 0.8026
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "grant writing process",
+          "type": "PROCESS"
+        },
+        "score": 0.7937
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "client",
+          "type": "PER"
+        },
+        "score": 0.7848
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "consultant",
+          "type": "TITLE"
+        },
+        "score": 0.7176
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "project",
+          "type": "PROJECT"
+        },
+        "score": 0.6501
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__dsn_collaborative_approach_principles_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_engagement_phase_timeline_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_4",
+    "relationships": [
+      {
+        "head": {
+          "name": "applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "client",
+          "type": "PER"
+        },
+        "score": 0.8123
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_10",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_12",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_13",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_14",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_15",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_16",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_17",
+    "relationships": [
+      {
+        "head": {
+          "name": "grants management",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.7273
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_18",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_19",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_20",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_21",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_22",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_23",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_24",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_25",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_26",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_27",
+    "relationships": [
+      {
+        "head": {
+          "name": "staff",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "partners",
+          "type": "TEAM"
+        },
+        "score": 0.726
+      },
+      {
+        "head": {
+          "name": "auditors",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "partners",
+          "type": "TEAM"
+        },
+        "score": 0.6605
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_28",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_29",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_30",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_31",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_32",
+    "relationships": [
+      {
+        "head": {
+          "name": "municipalities",
+          "type": "DEPT"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "projects",
+          "type": "PROJECT"
+        },
+        "score": 0.8175
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_33",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_34",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_35",
+    "relationships": [
+      {
+        "head": {
+          "name": "staff",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "client",
+          "type": "PER"
+        },
+        "score": 0.621
+      },
+      {
+        "head": {
+          "name": "client",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "staff",
+          "type": "TEAM"
+        },
+        "score": 0.6068
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_36",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_37",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_38",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_39",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_40",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_41",
+    "relationships": [
+      {
+        "head": {
+          "name": "client",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "stakeholders",
+          "type": "PER"
+        },
+        "score": 0.697
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_42",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_43",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_44",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_45",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_46",
+    "relationships": [
+      {
+        "head": {
+          "name": "internal control systems",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "staff members",
+          "type": "TEAM"
+        },
+        "score": 0.803
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_47",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_48",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_49",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_50",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_51",
+    "relationships": [
+      {
+        "head": {
+          "name": "staff",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "grant-funded projects",
+          "type": "PROJECT"
+        },
+        "score": 0.6466
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_52",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_lifecycle_methodology_53",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__grant_status_reporting_dashboards_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "status reports",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9648
+      },
+      {
+        "head": {
+          "name": "Award and Expenditure Summaries",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9349
+      },
+      {
+        "head": {
+          "name": "status reports",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9267
+      },
+      {
+        "head": {
+          "name": "Award and Expenditure Summaries",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9224
+      },
+      {
+        "head": {
+          "name": "Proactive Deadline Alerts",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.851
+      },
+      {
+        "head": {
+          "name": "Compliance Highlights",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.8416
+      },
+      {
+        "head": {
+          "name": "Performance and Milestone Tracking",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.8414
+      },
+      {
+        "head": {
+          "name": "Compliance Highlights",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7882
+      },
+      {
+        "head": {
+          "name": "Performance and Milestone Tracking",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
           "type": "COMP"
         },
         "score": 0.7631
       },
       {
         "head": {
-          "name": "David Wilson",
-          "type": "PER"
+          "name": "Proactive Deadline Alerts",
+          "type": "PROD"
         },
-        "relation": "works at",
+        "relation": "developed by",
         "tail": {
-          "name": "Orion Technologies",
+          "name": "DSN",
           "type": "COMP"
         },
-        "score": 0.6877
+        "score": 0.7609
       },
       {
         "head": {
-          "name": "Accounting team",
-          "type": "TEAM"
+          "name": "real-time grant dashboards",
+          "type": "PROD"
         },
-        "relation": "supports",
+        "relation": "developed by",
         "tail": {
-          "name": "Orion Cloud",
-          "type": "PLAT"
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
         },
-        "score": 0.6714
-      },
-      {
-        "head": {
-          "name": "David Wilson",
-          "type": "PER"
-        },
-        "relation": "joined in",
-        "tail": {
-          "name": "2023",
-          "type": "DATE"
-        },
-        "score": 0.6208
-      },
-      {
-        "head": {
-          "name": "David Wilson",
-          "type": "PER"
-        },
-        "relation": "leads",
-        "tail": {
-          "name": "financial reporting operations",
-          "type": "PROCESS"
-        },
-        "score": 0.6149
+        "score": 0.6028
       }
     ]
   },
   {
-    "id": "input2_2",
+    "id": "consolidated__grants__dsn_staff_engagements_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__dsn_staff_engagements_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_2",
     "relationships": [
       {
         "head": {
-          "name": "financial management system",
-          "type": "SOFT"
+          "name": "DSN",
+          "type": "ORG"
         },
-        "relation": "developed by",
+        "relation": "has office in",
         "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
+          "name": "Illinois",
+          "type": "STATE"
         },
-        "score": 0.9624
+        "score": 0.6185
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_9",
+    "relationships": [
+      {
+        "head": {
+          "name": "public health",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "DSN GAT",
+          "type": "ORG"
+        },
+        "score": 0.7903
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_10",
+    "relationships": [
+      {
+        "head": {
+          "name": "IHDA",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.8874
       },
       {
         "head": {
-          "name": "financial management system",
-          "type": "SOFT"
+          "name": "ICJIA",
+          "type": "DEPT"
         },
-        "relation": "launched in",
+        "relation": "based in",
         "tail": {
-          "name": "2024",
-          "type": "DATE"
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.8488
+      },
+      {
+        "head": {
+          "name": "Illinois Department of Transportation",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.8424
+      },
+      {
+        "head": {
+          "name": "IDOT",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.8379
+      },
+      {
+        "head": {
+          "name": "DCEO",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.8332
+      },
+      {
+        "head": {
+          "name": "IDNR",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.8253
+      },
+      {
+        "head": {
+          "name": "ISP",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.7831
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_11",
+    "relationships": [
+      {
+        "head": {
+          "name": "FSSA",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Indiana",
+          "type": "STATE"
+        },
+        "score": 0.8934
+      },
+      {
+        "head": {
+          "name": "Indiana Family and Social Services Administration",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Indiana",
+          "type": "STATE"
+        },
+        "score": 0.8892
+      },
+      {
+        "head": {
+          "name": "IDOE",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Indiana",
+          "type": "STATE"
+        },
+        "score": 0.8759
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_12",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_13",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__public_sector_grant_experience_14",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_abpa_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Rush Darwish",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "President",
+          "type": "TITLE"
+        },
+        "score": 0.9152
+      },
+      {
+        "head": {
+          "name": "Unit 3E",
+          "type": "BU"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "Arab-American Business and Professional Association",
+          "type": "ORG"
+        },
+        "score": 0.8867
+      },
+      {
+        "head": {
+          "name": "Unit 3E",
+          "type": "BU"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "ABPA",
+          "type": "ORG"
+        },
+        "score": 0.6875
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_abpa_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_abpa_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "Small Business Development Center",
+          "type": "BU"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "ABPA",
+          "type": "ORG"
+        },
+        "score": 0.693
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_abpa_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "Grant application",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Small Business Development Center",
+          "type": "ORG"
+        },
+        "score": 0.7797
+      },
+      {
+        "head": {
+          "name": "writing",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Small Business Development Center",
+          "type": "ORG"
+        },
+        "score": 0.7413
+      },
+      {
+        "head": {
+          "name": "Financial technical assistance",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Small Business Development Center",
+          "type": "ORG"
+        },
+        "score": 0.6901
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_abpa_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_abpa_5",
+    "relationships": [
+      {
+        "head": {
+          "name": "consulting services",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.8945
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "City of Chicago",
+          "type": "CITY"
+        },
+        "score": 0.7622
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_idoe_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Nicole Thompson",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Deputy Chief Operations Officer",
+          "type": "TITLE"
         },
         "score": 0.8912
       },
       {
         "head": {
-          "name": "Laura Martinez",
-          "type": "PER"
+          "name": "Department of Education",
+          "type": "ORG"
         },
-        "relation": "sponsored",
+        "relation": "headquartered in",
         "tail": {
-          "name": "project",
-          "type": "PROJECT"
-        },
-        "score": 0.8762
-      },
-      {
-        "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
-        },
-        "relation": "has office in",
-        "tail": {
-          "name": "Seattle",
-          "type": "CITY"
-        },
-        "score": 0.7965
-      },
-      {
-        "head": {
-          "name": "Laura Martinez",
-          "type": "PER"
-        },
-        "relation": "sponsored",
-        "tail": {
-          "name": "financial management system",
-          "type": "SOFT"
+          "name": "Indiana",
+          "type": "STATE"
         },
         "score": 0.7882
       },
       {
         "head": {
-          "name": "financial management system",
-          "type": "SOFT"
+          "name": "Department of Education",
+          "type": "ORG"
         },
-        "relation": "implemented in",
+        "relation": "has office in",
         "tail": {
-          "name": "2024",
-          "type": "DATE"
+          "name": "9th floor",
+          "type": "LOC"
         },
-        "score": 0.7367
+        "score": 0.6527
       },
       {
         "head": {
-          "name": "David Wilson",
-          "type": "PER"
+          "name": "Department of Education",
+          "type": "ORG"
         },
-        "relation": "manages",
+        "relation": "headquartered in",
         "tail": {
-          "name": "Accounting team",
-          "type": "TEAM"
+          "name": "Indianapolis",
+          "type": "CITY"
         },
-        "score": 0.691
-      },
-      {
-        "head": {
-          "name": "David Wilson",
-          "type": "PER"
-        },
-        "relation": "leads",
-        "tail": {
-          "name": "Accounting team",
-          "type": "TEAM"
-        },
-        "score": 0.6173
+        "score": 0.6449
       }
     ]
   },
   {
-    "id": "input3_0",
+    "id": "consolidated__grants__reference_idoe_1",
     "relationships": [
       {
         "head": {
-          "name": "Orion Cloud",
-          "type": "PLAT"
+          "name": "Elementary and Secondary School Emergency Relief (ESSER) program",
+          "type": "PROGRAM"
+        },
+        "relation": "launched in",
+        "tail": {
+          "name": "2023",
+          "type": "DATE"
+        },
+        "score": 0.8345
+      },
+      {
+        "head": {
+          "name": "Elementary and Secondary School Emergency Relief (ESSER) program",
+          "type": "PROGRAM"
         },
         "relation": "developed by",
         "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
+          "name": "DSN",
+          "type": "ORG"
         },
-        "score": 0.9744
-      },
+        "score": 0.8324
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_idoe_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_idoe_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_idoe_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_indiana_supreme_court_0",
+    "relationships": [
       {
         "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
+          "name": "Mary L. DePrez",
+          "type": "PER"
         },
-        "relation": "has customers in",
+        "relation": "has job title",
         "tail": {
-          "name": "United States",
-          "type": "COUNTRY"
+          "name": "Executive Director",
+          "type": "TITLE"
         },
-        "score": 0.9597
+        "score": 0.9355
       },
       {
         "head": {
-          "name": "Orion Technologies",
-          "type": "COMP"
+          "name": "Aaron Hood",
+          "type": "PER"
         },
-        "relation": "has customers in",
+        "relation": "has job title",
         "tail": {
-          "name": "Canada",
-          "type": "COUNTRY"
+          "name": "Chief Financial Officer",
+          "type": "TITLE"
         },
-        "score": 0.9368
+        "score": 0.9062
       },
       {
         "head": {
-          "name": "cloud infrastructure",
+          "name": "Office of Court Technology",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "Indiana Supreme Court",
+          "type": "ORG"
+        },
+        "score": 0.7927
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_indiana_supreme_court_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_indiana_supreme_court_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "Title IV-D Billing",
+          "type": "PROGRAM"
+        },
+        "relation": "implemented in",
+        "tail": {
+          "name": "FY 2010",
+          "type": "DATE"
+        },
+        "score": 0.8281
+      },
+      {
+        "head": {
+          "name": "Title IV-D Child Support Administration",
+          "type": "PROGRAM"
+        },
+        "relation": "implemented in",
+        "tail": {
+          "name": "FY 2010",
+          "type": "DATE"
+        },
+        "score": 0.7468
+      },
+      {
+        "head": {
+          "name": "Title IV-D Billing",
+          "type": "PROGRAM"
+        },
+        "relation": "implemented in",
+        "tail": {
+          "name": "FY 2022",
+          "type": "DATE"
+        },
+        "score": 0.7353
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_indiana_supreme_court_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_indiana_supreme_court_4",
+    "relationships": [
+      {
+        "head": {
+          "name": "judicial technology",
           "type": "TECH"
         },
         "relation": "developed by",
         "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
+          "name": "DSN GAT",
+          "type": "ORG"
         },
-        "score": 0.9208
+        "score": 0.9792
       },
       {
         "head": {
-          "name": "enterprise systems",
+          "name": "infrastructure",
           "type": "TECH"
         },
         "relation": "developed by",
         "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
+          "name": "DSN GAT",
+          "type": "ORG"
         },
-        "score": 0.9002
+        "score": 0.969
       },
       {
         "head": {
-          "name": "Jennifer Adams",
+          "name": "judicial technology",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Indiana Supreme Court",
+          "type": "ORG"
+        },
+        "score": 0.7535
+      },
+      {
+        "head": {
+          "name": "infrastructure",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Indiana Supreme Court",
+          "type": "ORG"
+        },
+        "score": 0.7346
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_wccmhb_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "WCCMHB_CONTACT_NAME",
           "type": "PER"
         },
         "relation": "works at",
         "tail": {
-          "name": "Orion Technologies",
-          "type": "COMP"
+          "name": "Will County Community Mental Health Board",
+          "type": "ORG"
         },
-        "score": 0.811
+        "score": 0.9348
       },
       {
         "head": {
-          "name": "client success team",
+          "name": "WCCMHB_CONTACT_TITLE",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Will County Community Mental Health Board",
+          "type": "ORG"
+        },
+        "score": 0.8712
+      },
+      {
+        "head": {
+          "name": "WCCMHB_CONTACT_NAME",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "WCCMHB",
+          "type": "ORG"
+        },
+        "score": 0.7225
+      },
+      {
+        "head": {
+          "name": "Will County Community Mental Health Board",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.7005
+      },
+      {
+        "head": {
+          "name": "Will County Community Mental Health Board",
+          "type": "ORG"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.6501
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_wccmhb_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_wccmhb_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "intellectual and developmental disabilities programs",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "WCCMHB",
+          "type": "ORG"
+        },
+        "score": 0.8104
+      },
+      {
+        "head": {
+          "name": "Mental health services",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "WCCMHB",
+          "type": "ORG"
+        },
+        "score": 0.6969
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__reference_wccmhb_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__reference_wccmhb_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9653
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Senior Grant Manager",
+          "type": "TITLE"
+        },
+        "score": 0.9302
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Senior Grant Manager",
+          "type": "TITLE"
+        },
+        "score": 0.9968
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "grant strategist",
+          "type": "TITLE"
+        },
+        "score": 0.986
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "grant lifecycle",
+          "type": "PROCESS"
+        },
+        "score": 0.9015
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Grant Professionals Certification Institute",
+          "type": "ORG"
+        },
+        "score": 0.7863
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_8",
+    "relationships": [
+      {
+        "head": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "City of Springfield",
+          "type": "CITY"
+        },
+        "score": 0.8091
+      },
+      {
+        "head": {
+          "name": "Land of Lincoln Goodwill Industries",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "City of Springfield",
+          "type": "CITY"
+        },
+        "score": 0.6379
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_10",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_12",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_13",
+    "relationships": [
+      {
+        "head": {
+          "name": "OPED",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Springfield",
+          "type": "CITY"
+        },
+        "score": 0.8438
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_14",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_15",
+    "relationships": [
+      {
+        "head": {
+          "name": "AmeriCorps",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "City of Springfield",
+          "type": "CITY"
+        },
+        "score": 0.871
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_16",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_17",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_18",
+    "relationships": [
+      {
+        "head": {
+          "name": "Continuum of Care NOFO",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Department of Housing and Urban Development",
+          "type": "ORG"
+        },
+        "score": 0.8418
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_19",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_20",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_21",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_22",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_23",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_24",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_25",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_26",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_27",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_28",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_29",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_30",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_31",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_32",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_donna_davlantis_33",
+    "relationships": [
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN Grant Administration Team",
+          "type": "ORG"
+        },
+        "score": 0.9962
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Senior Grant Manager",
+          "type": "TITLE"
+        },
+        "score": 0.9938
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "grant strategist",
+          "type": "TITLE"
+        },
+        "score": 0.984
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "grant lifecycle",
+          "type": "PROCESS"
+        },
+        "score": 0.9065
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "post-award compliance",
+          "type": "FUNCTION"
+        },
+        "score": 0.7541
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "proposal development",
+          "type": "FUNCTION"
+        },
+        "score": 0.7012
+      },
+      {
+        "head": {
+          "name": "Donna G. Davlantis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "reporting",
+          "type": "FUNCTION"
+        },
+        "score": 0.6771
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Krista Kolis",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "Diversified Services Network, Inc.",
+          "type": "COMP"
+        },
+        "score": 0.9677
+      },
+      {
+        "head": {
+          "name": "Krista Kolis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Senior Grant Manager",
+          "type": "TITLE"
+        },
+        "score": 0.9363
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Grants Management Professional",
+          "type": "TITLE"
+        },
+        "score": 0.9925
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "teams",
           "type": "TEAM"
+        },
+        "score": 0.9692
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "grant lifecycle",
+          "type": "PROCESS"
+        },
+        "score": 0.9355
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
         },
         "relation": "manages",
         "tail": {
-          "name": "ongoing technical support",
-          "type": "SERV"
+          "name": "grant programs",
+          "type": "PROGRAM"
         },
-        "score": 0.6492
+        "score": 0.8629
       },
       {
         "head": {
-          "name": "Jennifer Adams",
+          "name": "Mrs. Kolis",
           "type": "PER"
         },
         "relation": "leads",
         "tail": {
-          "name": "client success team",
+          "name": "team leadership",
+          "type": "FUNCTION"
+        },
+        "score": 0.8394
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "teams",
           "type": "TEAM"
         },
-        "score": 0.6257
+        "score": 0.8012
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "client training",
+          "type": "FUNCTION"
+        },
+        "score": 0.7653
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "reporting",
+          "type": "FUNCTION"
+        },
+        "score": 0.7474
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "subrecipient monitoring",
+          "type": "FUNCTION"
+        },
+        "score": 0.7358
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "interagency collaboration",
+          "type": "FUNCTION"
+        },
+        "score": 0.6808
+      },
+      {
+        "head": {
+          "name": "Mrs. Kolis",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "state and local governments",
+          "type": "ORG"
+        },
+        "score": 0.6688
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_10",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_12",
+    "relationships": [
+      {
+        "head": {
+          "name": "coordination team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "project plan development",
+          "type": "FUNCTION"
+        },
+        "score": 0.7506
+      },
+      {
+        "head": {
+          "name": "coordination team",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "databases",
+          "type": "DB"
+        },
+        "score": 0.7358
+      },
+      {
+        "head": {
+          "name": "coordination team",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "grant applications",
+          "type": "APP"
+        },
+        "score": 0.6516
+      },
+      {
+        "head": {
+          "name": "PowerPoint presentations",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "coordination team",
+          "type": "TEAM"
+        },
+        "score": 0.6342
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_13",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_14",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_15",
+    "relationships": [
+      {
+        "head": {
+          "name": "OPED",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Springfield",
+          "type": "CITY"
+        },
+        "score": 0.8002
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_16",
+    "relationships": [
+      {
+        "head": {
+          "name": "CDBG/HOME Program",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "HUD Office of Lead Hazard Control and Healthy Homes",
+          "type": "ORG"
+        },
+        "score": 0.7586
+      },
+      {
+        "head": {
+          "name": "Single-Family Rehabilitation and Accessibility",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "HUD Office of Lead Hazard Control and Healthy Homes",
+          "type": "ORG"
+        },
+        "score": 0.6407
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_17",
+    "relationships": [
+      {
+        "head": {
+          "name": "Kolis Consulting",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Springfield",
+          "type": "CITY"
+        },
+        "score": 0.8363
+      },
+      {
+        "head": {
+          "name": "Kolis Consulting",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Springfield",
+          "type": "CITY"
+        },
+        "score": 0.7003
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_18",
+    "relationships": [
+      {
+        "head": {
+          "name": "grant applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "HUD Office of Lead Hazard Control and Healthy Homes",
+          "type": "ORG"
+        },
+        "score": 0.9386
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_19",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_20",
+    "relationships": [
+      {
+        "head": {
+          "name": "DCEO Help Eliminate Lead Program",
+          "type": "PROGRAM"
+        },
+        "relation": "implemented in",
+        "tail": {
+          "name": "2018",
+          "type": "DATE"
+        },
+        "score": 0.6959
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_21",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_22",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_23",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_24",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_25",
+    "relationships": [
+      {
+        "head": {
+          "name": "CWLP",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "City of Springfield",
+          "type": "CITY"
+        },
+        "score": 0.8227
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_26",
+    "relationships": [
+      {
+        "head": {
+          "name": "Helping Homes Program",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "CWLP Energy Services Office",
+          "type": "DEPT"
+        },
+        "score": 0.675
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_27",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_28",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_29",
+    "relationships": [
+      {
+        "head": {
+          "name": "Dual Bachelor of Arts in Paralegal Studies and Political Science",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Southern Illinois University",
+          "type": "ORG"
+        },
+        "score": 0.8163
+      },
+      {
+        "head": {
+          "name": "Southern Illinois University",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Carbondale",
+          "type": "CITY"
+        },
+        "score": 0.7215
+      },
+      {
+        "head": {
+          "name": "Southern Illinois University",
+          "type": "ORG"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Carbondale",
+          "type": "CITY"
+        },
+        "score": 0.6729
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_30",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_31",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_32",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_33",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_34",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_35",
+    "relationships": [
+      {
+        "head": {
+          "name": "National Grants Management Association",
+          "type": "ORG"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.6225
+      },
+      {
+        "head": {
+          "name": "Project Management Institute",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.6036
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_36",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_37",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__personnel_krista_kolis_38",
+    "relationships": [
+      {
+        "head": {
+          "name": "Krista Kolis",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Senior Grant Manager",
+          "type": "TITLE"
+        },
+        "score": 0.9954
+      },
+      {
+        "head": {
+          "name": "Krista Kolis",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.9944
+      },
+      {
+        "head": {
+          "name": "Krista Kolis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "grant programs",
+          "type": "PROGRAM"
+        },
+        "score": 0.7575
+      },
+      {
+        "head": {
+          "name": "Krista Kolis",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "full grant lifecycle",
+          "type": "PROCESS"
+        },
+        "score": 0.7144
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__professional_affiliations_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Grant Administration Team",
+          "type": "TEAM"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.777
+      },
+      {
+        "head": {
+          "name": "GAT",
+          "type": "TEAM"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.7231
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__professional_affiliations_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__professional_affiliations_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__professional_affiliations_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__fee_structure_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__fee_structure_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__fee_structure_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "client",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7753
+      },
+      {
+        "head": {
+          "name": "clients",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7234
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__fee_structure_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__fee_structure_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__fee_structure_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__fee_structure_6",
+    "relationships": [
+      {
+        "head": {
+          "name": "grant",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8924
+      },
+      {
+        "head": {
+          "name": "project",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7193
+      }
+    ]
+  },
+  {
+    "id": "consolidated__grants__sustainability_commitment_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__grants__sustainability_commitment_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__dcfs_cover_letter_framing_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "personnel",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8601
+      },
+      {
+        "head": {
+          "name": "information systems",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7865
+      },
+      {
+        "head": {
+          "name": "information systems",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "personnel",
+          "type": "TEAM"
+        },
+        "score": 0.618
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__child_welfare_domain_expertise_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__child_welfare_domain_expertise_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__child_welfare_domain_expertise_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "workers",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.7349
+      },
+      {
+        "head": {
+          "name": "staff members",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "workers",
+          "type": "PER"
+        },
+        "score": 0.643
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__firm_capabilities_divisions_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Systems Development",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "firm",
+          "type": "COMP"
+        },
+        "score": 0.8527
+      },
+      {
+        "head": {
+          "name": "IT Consulting",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "firm",
+          "type": "COMP"
+        },
+        "score": 0.8219
+      },
+      {
+        "head": {
+          "name": "Systems Development",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "divisions",
+          "type": "BU"
+        },
+        "score": 0.7217
+      },
+      {
+        "head": {
+          "name": "IT Consulting",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "divisions",
+          "type": "BU"
+        },
+        "score": 0.6899
+      },
+      {
+        "head": {
+          "name": "Consulting",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "firm",
+          "type": "COMP"
+        },
+        "score": 0.6432
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__firm_capabilities_divisions_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__firm_capabilities_divisions_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__firm_capabilities_divisions_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "TimeEx",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9712
+      },
+      {
+        "head": {
+          "name": "DSNcap",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9688
+      },
+      {
+        "head": {
+          "name": "C-SATS",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9593
+      },
+      {
+        "head": {
+          "name": "DSNrmts",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9578
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__firm_capabilities_divisions_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__firm_capabilities_divisions_5",
+    "relationships": [
+      {
+        "head": {
+          "name": "SSI Eligibility Support Project",
+          "type": "PROJECT"
+        },
+        "relation": "launched in",
+        "tail": {
+          "name": "2019",
+          "type": "DATE"
+        },
+        "score": 0.7008
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__cost_allocation_approach_advisory_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Cost Allocation projects",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN team",
+          "type": "TEAM"
+        },
+        "score": 0.8938
+      },
+      {
+        "head": {
+          "name": "DSN team",
+          "type": "TEAM"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "Cost Allocation projects",
+          "type": "PROJECT"
+        },
+        "score": 0.6526
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSNCAP",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9964
+      },
+      {
+        "head": {
+          "name": "standard system",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9653
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__indirect_cost_allocation_plan_process_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__pacap_maintenance_approach_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "DEPT"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "public assistance",
+          "type": "PROGRAM"
+        },
+        "score": 0.7248
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "DEPT"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "public assistance",
+          "type": "PROGRAM"
+        },
+        "score": 0.6052
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__pacap_maintenance_approach_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__pacap_maintenance_approach_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_administering_task_chart_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_administering_task_chart_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_administering_task_chart_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "participants",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "participant",
+          "type": "PER"
+        },
+        "score": 0.6915
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_code_development_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "RMTS software",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9419
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_6",
+    "relationships": [
+      {
+        "head": {
+          "name": "Training Document",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "RMS",
+          "type": "COMP"
+        },
+        "score": 0.922
+      },
+      {
+        "head": {
+          "name": "Web-Roster sample pool",
+          "type": "DB"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "RMS",
+          "type": "COMP"
+        },
+        "score": 0.7704
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_implementation_plan_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_sampling_methodology_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_sampling_methodology_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "staff",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "workers",
+          "type": "PER"
+        },
+        "score": 0.6863
+      },
+      {
+        "head": {
+          "name": "staff",
+          "type": "TEAM"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "worker",
+          "type": "PER"
+        },
+        "score": 0.629
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_sampling_methodology_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_sampling_methodology_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_sampling_methodology_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_sampling_methodology_5",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN RMTS",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9905
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_software_overview_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_software_overview_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_software_overview_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_training_plan_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "RMTS coordinator",
+          "type": "PROGRAM"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "client",
+          "type": "ORG"
+        },
+        "score": 0.7757
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_training_plan_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_training_plan_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "RMS",
+          "type": "DEPT"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "Federal Programs",
+          "type": "PROGRAM"
+        },
+        "score": 0.6458
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_training_plan_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "RMTS Administrator",
+          "type": "TITLE"
+        },
+        "score": 0.6192
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "e-mails",
+          "type": "DB"
+        },
+        "score": 0.6864
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_6",
+    "relationships": [
+      {
+        "head": {
+          "name": "Sampled individuals",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "RMTS",
+          "type": "ORG"
+        },
+        "score": 0.6349
+      },
+      {
+        "head": {
+          "name": "employee",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "RMTS",
+          "type": "ORG"
+        },
+        "score": 0.6319
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_validation_audit_response_7",
+    "relationships": [
+      {
+        "head": {
+          "name": "RMTS system",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "PER"
+        },
+        "score": 0.7222
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__rmts_web_response_process_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__rmts_web_response_process_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__public_sector_client_list_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "RMTS software",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.9667
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__public_sector_client_list_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__public_sector_client_list_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "Office of Juvenile Justice",
+          "type": "DEPT"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "IV-E foster care program",
+          "type": "PROGRAM"
+        },
+        "score": 0.755
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Louisiana",
+          "type": "STATE"
+        },
+        "score": 0.7322
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__public_sector_client_list_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN RMTS®",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.9675
+      },
+      {
+        "head": {
+          "name": "Child Protective Services",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "Department of Social Services",
+          "type": "DEPT"
+        },
+        "score": 0.861
+      },
+      {
+        "head": {
+          "name": "Intensive Foster Care and Clinical Services",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "Department of Social Services",
+          "type": "DEPT"
+        },
+        "score": 0.7653
+      },
+      {
+        "head": {
+          "name": "DSN RMTS®",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Agency Partner",
+          "type": "COMP"
+        },
+        "score": 0.7341
+      },
+      {
+        "head": {
+          "name": "DSN RMTS®",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Department of Social Services",
+          "type": "DEPT"
+        },
+        "score": 0.6827
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "South Carolina",
+          "type": "STATE"
+        },
+        "score": 0.6064
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__public_sector_client_list_4",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN RMTS®",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Indiana Family and Social Services Administration",
+          "type": "DEPT"
+        },
+        "score": 0.8885
+      },
+      {
+        "head": {
+          "name": "DSN RMTS®",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Bureau of Developmental Disabilities Services",
+          "type": "DEPT"
+        },
+        "score": 0.7197
+      },
+      {
+        "head": {
+          "name": "Department of Family Resources Income Maintenance",
+          "type": "DEPT"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "Indiana Family and Social Services Administration",
+          "type": "DEPT"
+        },
+        "score": 0.6587
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__public_sector_client_list_5",
+    "relationships": [
+      {
+        "head": {
+          "name": "Department of Children and Family Services",
+          "type": "DEPT"
+        },
+        "relation": "based in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.6676
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__ssi_eligibility_advocacy_approach_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "court orders",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "DEPT"
+        },
+        "score": 0.8777
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "DEPT"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "SSI Redetermination",
+          "type": "FUNCTION"
+        },
+        "score": 0.8666
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "DEPT"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "Special Case Support",
+          "type": "FUNCTION"
+        },
+        "score": 0.8499
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__title_ive_eligibility_cost_study_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "DEPT"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "OIG",
+          "type": "DEPT"
+        },
+        "score": 0.8035
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "DEPT"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "DHHS-OIG",
+          "type": "DEPT"
+        },
+        "score": 0.7333
+      },
+      {
+        "head": {
+          "name": "Department",
+          "type": "DEPT"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "OIG",
+          "type": "DEPT"
+        },
+        "score": 0.6686
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__title_ive_eligibility_cost_study_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__title_ive_eligibility_cost_study_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__bio_amy_royce_rmts_admin_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Amy Royce",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Trainer",
+          "type": "TITLE"
+        },
+        "score": 0.8539
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__bio_amy_royce_rmts_admin_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "Ms. Amy Royce",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "Indiana Family and Social Services Administration RMTS",
+          "type": "DEPT"
+        },
+        "score": 0.794
+      },
+      {
+        "head": {
+          "name": "Ms. Amy Royce",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "Louisiana Office of Juvenile Justice RMTS",
+          "type": "DEPT"
+        },
+        "score": 0.7851
+      },
+      {
+        "head": {
+          "name": "Ms. Amy Royce",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "South Carolina Department of Social Services",
+          "type": "DEPT"
+        },
+        "score": 0.7309
+      },
+      {
+        "head": {
+          "name": "Random Moment Sampling (RMS)",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.7061
+      },
+      {
+        "head": {
+          "name": "Random Moment Sampling (RMS)",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "RMTS",
+          "type": "DEPT"
+        },
+        "score": 0.6589
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__bio_birdell_fry_sme_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "Birdell Fry",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Subject Matter Expert",
+          "type": "TITLE"
+        },
+        "score": 0.7765
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__bio_birdell_fry_sme_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Project Director",
+          "type": "TITLE"
+        },
+        "score": 0.98
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "leads",
+        "tail": {
+          "name": "IL DCFS Revenue Enhancement Project",
+          "type": "PROJECT"
+        },
+        "score": 0.9044
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "federal program",
+          "type": "PROGRAM"
+        },
+        "score": 0.7989
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "Department",
+          "type": "DEPT"
+        },
+        "score": 0.7216
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "claiming",
+          "type": "FUNCTION"
+        },
+        "score": 0.6618
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__bio_birdell_fry_sme_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "managerial",
+          "type": "TITLE"
+        },
+        "score": 0.9734
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "works with",
+        "tail": {
+          "name": "child welfare departments",
+          "type": "DEPT"
+        },
+        "score": 0.9434
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "federal program",
+          "type": "PROGRAM"
+        },
+        "score": 0.8313
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "claiming",
+          "type": "FUNCTION"
+        },
+        "score": 0.7216
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "manages",
+        "tail": {
+          "name": "Child Welfare",
+          "type": "DEPT"
+        },
+        "score": 0.6968
+      },
+      {
+        "head": {
+          "name": "Mr. Fry",
+          "type": "PER"
+        },
+        "relation": "oversees",
+        "tail": {
+          "name": "Child Welfare",
+          "type": "DEPT"
+        },
+        "score": 0.638
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__bio_derek_moore_it_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__bio_derek_moore_it_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "Derek Moore",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "IT professional",
+          "type": "TITLE"
+        },
+        "score": 0.9883
+      },
+      {
+        "head": {
+          "name": "database applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Derek Moore",
+          "type": "PER"
+        },
+        "score": 0.8341
+      }
+    ]
+  },
+  {
+    "id": "consolidated__hhs__engagement_manager_role_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__security_disaster_recovery_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__security_disaster_recovery_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__security_disaster_recovery_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__hhs__security_disaster_recovery_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "OneDrive",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9179
+      },
+      {
+        "head": {
+          "name": "OneDrive",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Microsoft",
+          "type": "COMP"
+        },
+        "score": 0.8857
+      },
+      {
+        "head": {
+          "name": "Office 365",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8817
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Naperville",
+          "type": "CITY"
+        },
+        "score": 0.8333
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Peoria",
+          "type": "CITY"
+        },
+        "score": 0.8172
+      },
+      {
+        "head": {
+          "name": "Office 365",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "Microsoft",
+          "type": "COMP"
+        },
+        "score": 0.7701
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "corporate headquarters",
+          "type": "LOC"
+        },
+        "score": 0.7204
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Peoria",
+          "type": "CITY"
+        },
+        "score": 0.6485
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_5",
+    "relationships": [
+      {
+        "head": {
+          "name": "applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9567
+      },
+      {
+        "head": {
+          "name": "application",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9478
+      },
+      {
+        "head": {
+          "name": "IT",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6808
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_7",
+    "relationships": [
+      {
+        "head": {
+          "name": "applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9952
+      },
+      {
+        "head": {
+          "name": "applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "client",
+          "type": "PER"
+        },
+        "score": 0.9346
+      },
+      {
+        "head": {
+          "name": "culture",
+          "type": "BU"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6598
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_10",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__transmittal_letter_eval_framing_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__dsn_differentiators_value_proposition_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__dsn_differentiators_value_proposition_1",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Springfield",
+          "type": "CITY"
+        },
+        "score": 0.8789
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Naperville",
+          "type": "CITY"
+        },
+        "score": 0.8747
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Peoria",
+          "type": "CITY"
+        },
+        "score": 0.8569
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.7645
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.6724
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__dsn_differentiators_value_proposition_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "project",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8203
+      },
+      {
+        "head": {
+          "name": "IT",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6541
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__management_customer_relationship_team_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Naperville",
+          "type": "CITY"
+        },
+        "score": 0.9718
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Springfield",
+          "type": "CITY"
+        },
+        "score": 0.9568
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Peoria",
+          "type": "CITY"
+        },
+        "score": 0.9196
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Indianapolis",
+          "type": "CITY"
+        },
+        "score": 0.881
+      },
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "Fond du Lac",
+          "type": "CITY"
+        },
+        "score": 0.8326
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__public_sector_track_record_16_agencies_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "relation": "headquartered in",
+        "tail": {
+          "name": "Illinois",
+          "type": "STATE"
+        },
+        "score": 0.7677
+      },
+      {
+        "head": {
+          "name": "client",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6758
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__understands_client_goals_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "legacy applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9388
+      },
+      {
+        "head": {
+          "name": "web-based applications",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9356
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "medical and dental insurance",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.834
+      },
+      {
+        "head": {
+          "name": "short- and long-term disability insurance",
+          "type": "PROD"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8085
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_3",
+    "relationships": [
+      {
+        "head": {
+          "name": "individual",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "company",
+          "type": "COMP"
+        },
+        "score": 0.8458
+      },
+      {
+        "head": {
+          "name": "talent",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "company",
+          "type": "COMP"
+        },
+        "score": 0.8294
+      },
+      {
+        "head": {
+          "name": "team",
+          "type": "TEAM"
+        },
+        "relation": "part of",
+        "tail": {
+          "name": "company",
+          "type": "COMP"
+        },
+        "score": 0.6566
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__compensation_benefits_retention_strategy_9",
+    "relationships": [
+      {
+        "head": {
+          "name": "employees",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8534
+      },
+      {
+        "head": {
+          "name": "resources",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6988
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__international_visa_program_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "relation": "launched",
+        "tail": {
+          "name": "visa program",
+          "type": "PROGRAM"
+        },
+        "score": 0.8755
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "statistical quality management tools",
+          "type": "TECH"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6191
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_6",
+    "relationships": [
+      {
+        "head": {
+          "name": "employee",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6399
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__performance_monitoring_process_8",
+    "relationships": [
+      {
+        "head": {
+          "name": "employee",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8781
+      },
+      {
+        "head": {
+          "name": "highest-quality services",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.6392
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_6",
+    "relationships": [
+      {
+        "head": {
+          "name": "candidates",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8164
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_8",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_10",
+    "relationships": [
+      {
+        "head": {
+          "name": "project",
+          "type": "PROJECT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7859
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__recruiting_staffing_mechanism_12",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__retention_and_filling_unexpected_vacancies_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__retention_and_filling_unexpected_vacancies_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__retention_and_filling_unexpected_vacancies_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "relation": "has office in",
+        "tail": {
+          "name": "workplace",
+          "type": "LOC"
+        },
+        "score": 0.7566
+      },
+      {
+        "head": {
+          "name": "resource",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "ORG"
+        },
+        "score": 0.7101
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_2",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_4",
+    "relationships": [
+      {
+        "head": {
+          "name": "candidate",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "job titles",
+          "type": "TITLE"
+        },
+        "score": 0.9267
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_8",
+    "relationships": [
+      {
+        "head": {
+          "name": "candidate",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Technical Manager",
+          "type": "TITLE"
+        },
+        "score": 0.7364
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_10",
+    "relationships": [
+      {
+        "head": {
+          "name": "HireRight",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "score": 0.863
+      },
+      {
+        "head": {
+          "name": "I-9",
+          "type": "SERV"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "score": 0.8212
+      },
+      {
+        "head": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "I-9",
+          "type": "SERV"
+        },
+        "score": 0.7193
+      },
+      {
+        "head": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "identity checks",
+          "type": "SERV"
+        },
+        "score": 0.649
+      },
+      {
+        "head": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "criminal background checks",
+          "type": "SERV"
+        },
+        "score": 0.6397
+      },
+      {
+        "head": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "relation": "supports",
+        "tail": {
+          "name": "drug screening",
+          "type": "PROCESS"
+        },
+        "score": 0.6061
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_12",
+    "relationships": [
+      {
+        "head": {
+          "name": "application documents",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "score": 0.8613
+      },
+      {
+        "head": {
+          "name": "candidate",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Technical Manager",
+          "type": "TITLE"
+        },
+        "score": 0.6404
+      },
+      {
+        "head": {
+          "name": "candidate",
+          "type": "PER"
+        },
+        "relation": "has job title",
+        "tail": {
+          "name": "Account Manager",
+          "type": "TITLE"
+        },
+        "score": 0.6163
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_13",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__screening_qualification_process_14",
+    "relationships": [
+      {
+        "head": {
+          "name": "application",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN Talent Sourcing Team",
+          "type": "TEAM"
+        },
+        "score": 0.947
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_0",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_1",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_2",
+    "relationships": [
+      {
+        "head": {
+          "name": "Taleo Talent Management System",
+          "type": "SOFT"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9698
+      },
+      {
+        "head": {
+          "name": "internal database",
+          "type": "DB"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9586
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_3",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_4",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_5",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_6",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_7",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_8",
+    "relationships": [
+      {
+        "head": {
+          "name": "LinkedIn",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8583
+      },
+      {
+        "head": {
+          "name": "Indeed",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8555
+      },
+      {
+        "head": {
+          "name": "Monster",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8455
+      },
+      {
+        "head": {
+          "name": "Career Builder",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8421
+      },
+      {
+        "head": {
+          "name": "Dice",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.8355
+      },
+      {
+        "head": {
+          "name": "Jobing.com",
+          "type": "APP"
+        },
+        "relation": "developed by",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.7725
+      }
+    ]
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_9",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_10",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_11",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_12",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_13",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_14",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_15",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_16",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_17",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__sourcing_channels_and_internal_database_18",
+    "relationships": []
+  },
+  {
+    "id": "consolidated__staffing__subcontractor_leverage_0",
+    "relationships": [
+      {
+        "head": {
+          "name": "candidate",
+          "type": "PER"
+        },
+        "relation": "works at",
+        "tail": {
+          "name": "DSN",
+          "type": "COMP"
+        },
+        "score": 0.9289
       }
     ]
   }

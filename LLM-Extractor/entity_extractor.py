@@ -10,7 +10,7 @@ from pydantic import BaseModel
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from text_files.text_parser import Chunk, load_chunks  # noqa: E402
+from text_files.text_parser import CHUNKS_PATH, Chunk, load_chunks  # noqa: E402
 
 DEFAULT_MODEL = "gpt-5.4-mini"
 
@@ -63,7 +63,7 @@ def write_entities(entities: dict[str, list[Entity]], path: str | Path) -> None:
 if __name__ == "__main__":
     load_dotenv(ROOT / ".env")
 
-    input_path = sys.argv[1] if len(sys.argv) > 1 else ROOT / "chunks.json"
+    input_path = sys.argv[1] if len(sys.argv) > 1 else CHUNKS_PATH
     output_path = sys.argv[2] if len(sys.argv) > 2 else Path(__file__).parent / "llm-entities.txt"
     model = os.getenv("OPENAI_MODEL", DEFAULT_MODEL)
 

@@ -5,6 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 STEPS = [
+    ROOT / "text_files" / "text_parser.py",
     ROOT / "Ner-Extractor" / "entity_extractor.py",
     ROOT / "Ner-Extractor" / "relation_extractor.py",
     ROOT / "Ner-Extractor" / "graph_builder.py",
